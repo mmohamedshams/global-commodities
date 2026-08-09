@@ -1,0 +1,263 @@
+{
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "gallery": "Gallery",
+    "certificates": "Certificates",
+    "contact": "Contact",
+    "quote": "Request Quote"
+  },
+
+  "hero": {
+    "title": "Global Commodities For General Trading LLC",
+    "subtitle": "Connecting Global Markets with Premium Agricultural Products"
+  },
+  
+  "home": {
+    "hero": {
+      "badge": "Trusted Import & Export Partner",
+      "title": "Connecting Global Markets with",
+      "highlight": "Premium Agricultural Products",
+      "description": "Global Commodities LLC specializes in supplying premium potato seeds, sesame seeds, popcorn, cowpeas, Canadian beans, Lithuanian beans and Australian beans to international markets with the highest quality standards.",
+      "explore": "Explore Products",
+      "contact": "Contact Us"
+    },
+    "features": {
+  "quality": {
+    "title": "Premium Quality",
+    "description": "Carefully selected agricultural commodities."
+  },
+  "trade": {
+    "title": "Worldwide Trade",
+    "description": "Serving customers across global markets."
+  },
+  "shipping": {
+    "title": "Fast Shipping",
+    "description": "Reliable sea freight and logistics solutions."
+  },
+  "partner": {
+    "title": "Trusted Partner",
+    "description": "Building long-term business relationships."
+  }
+},
+"products": {
+  "badge": "Our Products",
+  "title": "Premium Agricultural Commodities",
+  "description": "We supply premium agricultural products that meet international quality standards for customers around the world.",
+  "origin": "Origin:",
+  "details": "View Details"
+}
+ ,
+  "about": {
+  "badge": "About Us",
+  "title": "Your Trusted Partner in Global Agricultural Trade",
+  "description": "Global Commodities For General Trading LLC specializes in supplying premium agricultural commodities to customers around the world. We are committed to quality, reliability, and building long-term partnerships.",
+  "experience": "Years of Experience",
+  "button": "Learn More",
+  "stats": {
+    "countries": "Countries",
+    "shipments": "Shipments",
+    "quality": "Quality"
+  },
+  "features": [
+    "Premium Agricultural Products",
+    "Reliable Worldwide Shipping",
+    "Trusted International Suppliers",
+    "Competitive Prices"
+  ]
+},
+"whyChoose": {
+  "badge": "Why Choose Us",
+  "title": "Delivering Excellence Worldwide",
+  "description": "We combine premium quality products with reliable logistics and exceptional customer service to create long-term partnerships.",
+
+  "quality": {
+    "title": "Premium Quality",
+    "description": "Only carefully selected agricultural commodities."
+  },
+
+  "network": {
+    "title": "Global Network",
+    "description": "Exporting to customers across worldwide markets."
+  },
+
+  "logistics": {
+    "title": "Fast Logistics",
+    "description": "Reliable shipping with trusted logistics partners."
+  },
+
+  "supplier": {
+    "title": "Trusted Supplier",
+    "description": "Building long-term relationships with clients."
+  },
+
+  "pricing": {
+    "title": "Competitive Prices",
+    "description": "Best value without compromising quality."
+  },
+
+  "support": {
+    "title": "24/7 Support",
+    "description": "Quick responses and dedicated customer service."
+  }
+},
+"statistics": {
+  "countries": "Countries Served",
+  "shipments": "Successful Shipments",
+  "experience": "Years Experience",
+  "satisfaction": "Customer Satisfaction"
+},
+"certificates": {
+  "badge": "Certificates",
+  "title": "International Standards",
+  "description": "We comply with international regulations and provide all required certifications to ensure safe and reliable global trade.",
+  "quality": "Quality Assurance",
+  "phytosanitary": "Phytosanitary Certificate",
+  "documentation": "Export Documentation"
+},
+"gallery": {
+  "badge": "Gallery",
+  "title": "Our Operations",
+  "description": "Take a look at our products, warehouses, packaging process, and international shipping operations.",
+  "image": "Gallery Image"
+},
+"cta": {
+  "title": "Ready to Grow Your Business?",
+  "description": "Contact us today to request a quotation and discover our premium agricultural products tailored to your business needs.",
+  "button": "Request a Quote"
+}
+ },
+ "footer": {
+  "description": "Global Commodities LLC specializes in supplying premium agricultural products to customers worldwide with quality, reliability and competitive prices.",
+  "links": "Quick Links",
+  "home": "Home",
+  "about": "About",
+  "products": "Products",
+  "contact": "Contact",
+  "ourProducts": "Our Products",
+  "contactInfo": "Contact Info",
+  "copyright": "All Rights Reserved."
+},
+"about": {
+  "hero": {
+    "badge": "About Global Commodities",
+    "title": "Your Trusted Partner in Global Agricultural Trade",
+    "description": "Global Commodities LLC delivers premium agricultural products to international markets through trusted suppliers, reliable logistics, and a commitment to quality."
+  },
+
+  "story": {
+    "badge": "Who We Are",
+    "title": "Building Strong Partnerships Across Global Markets",
+    "description": "Global Commodities LLC is an international trading company specializing in sourcing and exporting high-quality agricultural commodities. We work closely with trusted producers and global buyers to ensure every shipment meets the highest standards of quality, reliability, and efficiency. Our commitment is to build long-term partnerships based on trust, transparency, and consistent performance.",
+
+    "point1": "Premium quality agricultural products",
+    "point2": "Reliable international supply chain",
+    "point3": "Competitive prices with flexible solutions",
+    "point4": "Long-term partnerships built on trust"
+  },
+
+  "cards": {
+    "heading": "Our Mission, Vision & Values",
+
+    "mission": {
+      "title": "Our Mission",
+      "text": "To provide premium agricultural commodities while delivering exceptional service, reliable logistics, and sustainable value to our customers worldwide."
+    },
+
+    "vision": {
+      "title": "Our Vision",
+      "text": "To become one of the leading global agricultural trading companies recognized for quality, integrity, and long-term business partnerships."
+    },
+
+    "values": {
+      "title": "Our Values",
+      "text": "Integrity, quality, transparency, customer satisfaction, innovation, and continuous improvement are the principles that guide every aspect of our business."
+    }
+  },
+
+  "highlights": {
+    "countries": "Countries Served",
+    "shipments": "Successful Shipments",
+    "experience": "Years of Experience",
+    "customers": "Customer Satisfaction"
+  },
+
+  "markets": {
+    "badge": "Global Presence",
+    "title": "Serving Customers Worldwide",
+    "description": "Our products reach customers across multiple international markets through an efficient logistics network and reliable global partnerships.",
+
+    "middleEast": "Middle East",
+    "europe": "Europe",
+    "africa": "Africa",
+    "southAmerica": "South America"
+  }
+},
+"products": {
+  "hero": {
+    "badge": "Our Products",
+    "title": "Premium Agricultural Products",
+    "description": "We supply premium agricultural commodities worldwide."
+  },
+
+  "origin": "Origin",
+  "packaging": "Packaging",
+  "details": "View Details"
+} ,
+"contact": {
+  "hero": {
+    "badge": "CONTACT US",
+    "title": "Let's Start Doing Business Together",
+    "description": "Whether you're looking for premium agricultural products, requesting a quotation, or exploring long-term partnerships, our team is ready to assist you."
+  } ,
+  "info": {
+  "badge": "CONTACT INFORMATION",
+  "title": "Get In Touch",
+  "description": "Our team is always ready to answer your inquiries and provide the best solutions.",
+  "address": "Address",
+  "phone": "Phone",
+  "email": "Email",
+  "website": "Website",
+  "hours": "Working Hours",
+  "workingHours": "Monday - Friday | 9:00 AM - 6:00 PM"
+},
+"form": {
+  "title": "Send Us a Message",
+  "description": "Fill out the form and we'll get back to you as soon as possible.",
+  "name": "Full Name",
+  "company": "Company Name",
+  "email": "Email Address",
+  "phone": "Phone Number",
+  "country": "Country",
+  "product": "Interested Product",
+  "message": "Write your message...",
+  "button": "Send Inquiry"
+},
+"why": {
+  "badge": "WHY CHOOSE US",
+  "title": "Why Work With Global Commodities?",
+  "description": "We are committed to delivering premium agricultural products with reliability, transparency, and outstanding customer service.",
+
+  "fast": {
+    "title": "Fast Response",
+    "description": "Our sales team responds quickly to every inquiry."
+  },
+
+  "global": {
+    "title": "Worldwide Trade",
+    "description": "Serving customers across Africa, Europe, Asia and the Middle East."
+  },
+
+  "quality": {
+    "title": "Premium Quality",
+    "description": "Every shipment is selected according to international quality standards."
+  },
+
+  "partner": {
+    "title": "Long-Term Partnership",
+    "description": "We believe in building strong and lasting business relationships."
+  }
+}
+}
+}
