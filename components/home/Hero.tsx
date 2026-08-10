@@ -26,14 +26,15 @@ export default function Hero() {
             🌍 {t("badge")}
           </span>
 
-          <h1 className="mt-8 text-5xl font-extrabold leading-tight md:text-7xl">
-            {t("title")}
-            <span className="mt-2 block text-orange-400">
-              {t("highlight")}
-            </span>
-          </h1>
+        <h1 className="mt-6 text-4xl font-extrabold leading-[1.15] sm:text-5xl md:mt-8 md:text-6xl lg:text-7xl">
+  {t("title")}
 
-          <p className="mt-8 max-w-2xl text-lg leading-8 text-gray-200">
+  <span className="mt-2 block text-orange-400">
+    {t("highlight")}
+  </span>
+</h1>
+
+          <p className="mt-6 max-w-2xl text-base leading-7 text-gray-200 sm:text-lg sm:leading-8">
             {t("description")}
           </p>
 
