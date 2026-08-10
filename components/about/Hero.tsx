@@ -5,7 +5,7 @@ export default function AboutHero() {
   const t = useTranslations("about.hero");
 
   return (
-    <section className="relative h-[55vh] min-h-[420px] overflow-hidden">
+    <section className="relative min-h-[620px] h-[85vh] w-full overflow-hidden sm:min-h-[650px] md:h-[90vh] md:min-h-[700px]">
       <Image
         src="/images/about/about-hero.jpg"
         alt="About Global Commodities"
@@ -22,11 +22,11 @@ export default function AboutHero() {
             {t("badge")}
           </span>
 
-          <h1 className="mt-6 text-5xl font-extrabold md:text-6xl">
+          <h1 className="mt-6 text-4xl font-extrabold leading-[1.15] sm:text-5xl md:mt-8 md:text-6xl lg:text-7xl">
             {t("title")}
           </h1>
 
-          <p className="mx-auto mt-6 max-w-2xl text-lg text-blue-100">
+         <p className="mt-6 max-w-2xl text-base leading-7 text-gray-200 sm:text-lg sm:leading-8">
             {t("description")}
           </p>
         </div>
