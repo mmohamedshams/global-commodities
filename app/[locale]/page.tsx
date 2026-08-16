@@ -5,6 +5,7 @@ import Features from "@/components/home/Features";
 
 import About from "@/components/home/About";
 import WhyChoose from "@/components/home/WhyChoose";
+import Companies from "@/components/home/Companies";
 import Statistics from "@/components/home/Statistics";
 
 import Certificates from "@/components/home/Certificates";
@@ -20,6 +21,7 @@ export default function Home() {
       <Features />
       <About />
       <WhyChoose />
+      <Companies />
       <Statistics />
       <Certificates />
       <Gallery />

@@ -19,7 +19,7 @@
       "badge": "Trusted Import & Export Partner",
       "title": "Connecting Global Markets with",
       "highlight": "Premium Agricultural Products",
-      "description": "Global Commodities LLC specializes in supplying premium potato seeds, sesame seeds, popcorn, cowpeas, Canadian beans, Lithuanian beans and Australian beans to international markets with the highest quality standards.",
+      "description": "Global Commodities LLC provides a wide range of high-quality agricultural and food products through reliable sourcing and export solutions, meeting the needs of customers and markets worldwide.",
       "explore": "Explore Products",
       "contact": "Contact Us"
     },
@@ -47,8 +47,22 @@
   "description": "We supply premium agricultural products that meet international quality standards for customers around the world.",
   "origin": "Origin:",
   "details": "View Details"
-}
- ,
+},
+"companies": {
+  "badge": "Our Companies",
+  "title": "Companies Behind Global Commodities",
+  "description": "A group of companies working together to provide integrated solutions across sourcing, trading, and export.",
+  "global": {
+    "name": "Global Commodities LLC"
+  },
+  "shorouk": {
+    "name": "Al Shorouk"
+  },
+  "farouk": {
+    "name": "Al Farouk"
+  }
+},
+
   "about": {
   "badge": "About Us",
   "title": "Your Trusted Partner in Global Agricultural Trade",
