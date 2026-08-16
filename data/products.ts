@@ -158,7 +158,7 @@ export const products: Product[] = [
       ar: "حبوب",
     },
 
-    image: "/images/products/popcorn/cover.jpg",
+    image: "/images/products/popcorn/1.jpg",
 
     gallery: [
       "/images/products/popcorn/1.jpg",
