@@ -158,22 +158,21 @@
   },
 
   "about": {
-    "hero": {
-      "badge": "About Global Commodities",
-      "title": "Your Trusted Partner in Global Agricultural Trade",
-      "description": "Global Commodities LLC delivers premium agricultural products to international markets through trusted suppliers, reliable logistics, and a commitment to quality."
-    },
+ "hero": {
+  "badge": "About Us",
+  "title": "Four Generations of Excellence",
+  "description": "A fourth-generation family business with a legacy in trade dating back to 1940. We specialize in sourcing and trading a wide range of high-quality agricultural products, connecting trusted suppliers with customers around the world through reliable service, competitive solutions, and long-term partnerships."
+},
 
-    "story": {
-      "badge": "Who We Are",
-      "title": "Building Strong Partnerships Across Global Markets",
-      "description": "Global Commodities LLC is an international trading company specializing in sourcing and exporting high-quality agricultural commodities. We work closely with trusted producers and global buyers to ensure every shipment meets the highest standards of quality, reliability, and efficiency. Our commitment is to build long-term partnerships based on trust, transparency, and consistent performance.",
-
-      "point1": "Premium quality agricultural products",
-      "point2": "Reliable international supply chain",
-      "point3": "Competitive prices with flexible solutions",
-      "point4": "Long-term partnerships built on trust"
-    },
+"story": {
+  "badge": "About Us",
+  "title": "Building Strong Partnerships in Global Markets",
+  "description": "Global Commodities LLC began its journey by focusing on the local market, initially working to establish a strong presence and expand our business network across Egypt. As our experience grew and we achieved success in the local market, we began expanding into international markets and entered the import and export sector.\n\nToday, we work through long-term contracts with numerous companies across Asia and Europe, striving to build sustainable business relationships based on trust and commitment.\n\nWe consider our business partners to be more than just commercial transactions. We are committed to providing market insights and expertise regarding the Egyptian market, in addition to offering any services or business solutions our partners may need.",
+  "point1": "High-quality agricultural products",
+  "point2": "Reliable international supply chain",
+  "point3": "Competitive prices and flexible solutions",
+  "point4": "Long-term partnerships built on trust"
+},
 
     "cards": {
       "heading": "Our Mission, Vision & Values",
