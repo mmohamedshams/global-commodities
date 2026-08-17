@@ -22,10 +22,10 @@ export default function Footer() {
           <div>
 
             <Image
-              src="/images/logo/logo.png"
+              src="/images/logo/logo3.png"
               alt="Global Commodities"
-              width={70}
-              height={70}
+              width={140}
+              height={140}
             />
 
             <h2 className="mt-5 text-2xl font-bold text-orange-500">
@@ -119,34 +119,97 @@ export default function Footer() {
 
           </div>
 
-          {/* Contact */}
+   {/* Contact */}
 
-          <div>
+<div>
 
-            <h3 className="mb-6 text-xl font-semibold">
-              {t("contactInfo")}
-            </h3>
+  <h3 className="mb-6 text-xl font-semibold">
+    {t("contactInfo")}
+  </h3>
 
-            <div className="space-y-5 text-gray-400">
+  <div className="space-y-5 text-gray-400">
 
-              <div className="flex items-center gap-3">
-                <MapPin size={18} />
-                <span>Minya, EGYPT</span>
-              </div>
+    {/* Minya */}
+    <div className="flex items-start gap-3">
+      <MapPin
+        size={18}
+        className="mt-1 shrink-0 text-orange-500"
+      />
 
-              <div className="flex items-center gap-3">
-                <Mail size={18} />
-                <span>info@globalcommoditiesllc.com</span>
-              </div>
+      <div>
+        <p className="font-medium text-white">
+          Minya
+        </p>
 
-              <div className="flex items-center gap-3">
-                <Phone size={18} />
-                <span>+201069433125</span>
-              </div>
+        <p className="text-sm text-gray-400">
+          Egypt
+        </p>
+      </div>
+    </div>
 
-            </div>
+    {/* Cairo */}
+    <div className="flex items-start gap-3">
+      <MapPin
+        size={18}
+        className="mt-1 shrink-0 text-orange-500"
+      />
 
-          </div>
+      <div>
+        <p className="font-medium text-white">
+          Cairo
+        </p>
+
+        <p className="text-sm text-gray-400">
+          Egypt
+        </p>
+      </div>
+    </div>
+
+    {/* Abu Dhabi */}
+    <div className="flex items-start gap-3">
+      <MapPin
+        size={18}
+        className="mt-1 shrink-0 text-orange-500"
+      />
+
+      <div>
+        <p className="font-medium text-white">
+          Abu Dhabi
+        </p>
+
+        <p className="text-sm text-gray-400">
+          United Arab Emirates
+        </p>
+      </div>
+    </div>
+
+    {/* Email */}
+    <div className="flex items-center gap-3">
+      <Mail
+        size={18}
+        className="shrink-0 text-orange-500"
+      />
+
+      <span>
+        info@globalcommoditiesllc.com
+      </span>
+    </div>
+
+    {/* Phone */}
+    <div className="flex items-center gap-3">
+      <Phone
+        size={18}
+        className="shrink-0 text-orange-500"
+      />
+
+      <span>
+        +20 106 943 3125
+      </span>
+    </div>
+
+  </div>
+
+</div>
 
         </div>
 

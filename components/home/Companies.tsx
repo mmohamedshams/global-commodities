@@ -10,7 +10,7 @@ export default function Companies() {
     {
       id: "global",
       name: t("global.name"),
-      image: "/images/companies/global.png",
+      image: "/images/companies/globalCommodities.png",
     },
     {
       id: "al-shorouk",

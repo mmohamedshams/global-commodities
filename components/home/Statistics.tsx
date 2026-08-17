@@ -23,7 +23,7 @@ export default function Statistics() {
     },
     {
       icon: Award,
-      number: 25,
+      number: 80,
       suffix: "+",
       title: t("experience"),
     },

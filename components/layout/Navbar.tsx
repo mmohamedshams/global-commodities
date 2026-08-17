@@ -8,10 +8,13 @@ import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
 import { usePathname } from "@/i18n/navigation";
-import clsx from "clsx";
+
 import { motion } from "framer-motion";
+import TopBar from "./TopBar";
 
 export default function Navbar() {
+
+  
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -33,12 +36,14 @@ const pathname = usePathname();
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-gray-200/50 bg-white/80 backdrop-blur-xl dark:border-slate-700/50 dark:bg-slate-900/80">
+    
+    <header className="sticky top-0 z-50 w-full bg-white dark:bg-slate-900">
+        <TopBar />
       <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3">
           <Image
-            src="/images/logo/logo.png"
+            src="/images/logo/logo3.png"
             alt="Global Commodities"
             width={55}
             height={55}
@@ -51,7 +56,7 @@ const pathname = usePathname();
             </h1>
 
             <p className="text-xs text-gray-500 dark:text-gray-400">
-              For General Trading LLC
+               General Trading LLC
             </p>
           </div>
         </Link>
