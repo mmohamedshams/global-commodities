@@ -135,9 +135,9 @@ export default function About() {
             </div>
 
             {/* Title */}
-            <h2 className="mt-6 text-4xl font-extrabold leading-tight text-gray-900 sm:text-5xl lg:text-6xl dark:text-white">
-              {t("title")}
-            </h2>
+           <h2 className="mt-6 text-3xl font-extrabold leading-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-white">
+  {t("title")}
+</h2>
 
             {/* Description */}
             <p className="mt-7 max-w-2xl text-base leading-8 text-gray-600 sm:text-lg dark:text-gray-400">

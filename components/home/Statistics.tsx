@@ -11,13 +11,13 @@ export default function Statistics() {
   const stats = [
     {
       icon: Globe2,
-      number: 40,
+      number: 90,
       suffix: "+",
       title: t("countries"),
     },
     {
       icon: Ship,
-      number: 1500,
+      number: 5000,
       suffix: "+",
       title: t("shipments"),
     },
@@ -29,7 +29,7 @@ export default function Statistics() {
     },
     {
       icon: Users,
-      number: 98,
+      number: 99,
       suffix: "%",
       title: t("satisfaction"),
     },

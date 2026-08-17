@@ -12,22 +12,22 @@ export default function Highlights() {
   const items = [
     {
       icon: Globe2,
-      number: "40+",
+      number: "90+",
       title: t("countries"),
     },
     {
       icon: ShipWheel,
-      number: "1500+",
+      number: "5000+",
       title: t("shipments"),
     },
     {
       icon: Award,
-      number: "25+",
+      number: "80+",
       title: t("experience"),
     },
     {
       icon: Users,
-      number: "98%",
+      number: "99%",
       title: t("customers"),
     },
   ];
