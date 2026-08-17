@@ -34,7 +34,7 @@ export default function Story() {
             {t("title")}
           </h2>
 
-          <p className="mt-8 leading-8 text-gray-600 dark:text-gray-400">
+          <p className="mt-4 leading-8 text-gray-600 dark:text-gray-400">
             {t("description")}
           </p>
 
