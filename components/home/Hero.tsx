@@ -22,7 +22,7 @@ export default function Hero() {
         }}
       >
         <Image
-          src="/images/hero/hero.jpg"
+          src="/images/hero/hero2.png"
           alt={t("title")}
           fill
           priority

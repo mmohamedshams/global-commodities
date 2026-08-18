@@ -30,7 +30,7 @@ const pathname = usePathname();
     { name: t("home"), href: "/" },
     { name: t("about"), href: "/about" },
     { name: t("products"), href: "/products" },
-    { name: t("certificates"), href: "/#" },
+  
   
     { name: t("contact"), href: "/contact" },
   ];

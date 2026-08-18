@@ -7,7 +7,7 @@ export default function AboutHero() {
   return (
    <section className="relative h-[520px] w-full overflow-hidden sm:h-[560px] md:h-[580px]">
   <Image
-    src="/images/about/about-hero.jpg"
+    src="/images/about/about-hero1.png"
     alt="About Global Commodities"
     fill
     priority

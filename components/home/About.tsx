@@ -39,7 +39,7 @@ export default function About() {
             <div className="group relative h-[480px] overflow-hidden rounded-[2rem] shadow-2xl sm:h-[560px]">
 
               <Image
-                src="/images/about/about.jpg"
+                src="/images/about/about.png"
                 alt={t("title")}
                 fill
                 className="object-cover transition duration-700 group-hover:scale-105"
@@ -136,8 +136,8 @@ export default function About() {
 
             {/* Title */}
            <h2 className="mt-6 text-3xl font-extrabold leading-tight text-gray-900 sm:text-4xl lg:text-5xl dark:text-white">
-  {t("title")}
-</h2>
+           {t("title")}
+           </h2>
 
             {/* Description */}
             <p className="mt-7 max-w-2xl text-base leading-8 text-gray-600 sm:text-lg dark:text-gray-400">

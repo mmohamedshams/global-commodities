@@ -7,7 +7,7 @@ export default function ContactHero() {
     <section
       className="relative overflow-hidden bg-cover bg-center py-32"
       style={{
-        backgroundImage: "url('/images/contact/contact-hero.jpg')",
+        backgroundImage: "url('/images/contact/contact-hero.png')",
       }}
     >
       {/* Overlay */}
