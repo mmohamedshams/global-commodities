@@ -7,7 +7,7 @@ export default function Loading() {
       <div className="flex flex-col items-center">
 
         <Image
-          src="/images/logo/logo.png"
+          src="/images/logo/logo3.png"
           alt="Global Commodities"
           width={90}
           height={90}
