@@ -140,7 +140,7 @@ export default function Footer() {
         <p className="font-medium text-white">
           Minya
         </p>
-        <p className="font-medium text-white">
+        <p className=" text-white">
           ,Cairo
         </p>
         <p className="text-sm text-gray-400">
