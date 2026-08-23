@@ -38,7 +38,7 @@ export default function TopBar() {
 
           {/* Facebook */}
         <a
-  href="#"
+  href="https://www.facebook.com/profile.php?id=61593320767758"
   className="flex h-10 w-10 items-center justify-center rounded-full bg-transparent text-[#1877F2] transition-all duration-300 hover:-translate-y-1 hover:text-orange-500"
 >
   <FaFacebookF size={18} />

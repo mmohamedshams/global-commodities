@@ -39,7 +39,7 @@ export default function Footer() {
             <div className="mt-6 flex gap-4">
 
               <a
-                href="#"
+                href="https://www.facebook.com/profile.php?id=61593320767758"
                 className="rounded-full bg-slate-800 p-3 transition hover:bg-orange-500"
               >
                 <FaFacebookF size={18} />
