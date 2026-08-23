@@ -140,30 +140,16 @@ export default function Footer() {
         <p className="font-medium text-white">
           Minya
         </p>
-
-        <p className="text-sm text-gray-400">
-          Egypt
-        </p>
-      </div>
-    </div>
-
-    {/* Cairo */}
-    <div className="flex items-start gap-3">
-      <MapPin
-        size={18}
-        className="mt-1 shrink-0 text-orange-500"
-      />
-
-      <div>
         <p className="font-medium text-white">
-          Cairo
+          ,Cairo
         </p>
-
         <p className="text-sm text-gray-400">
           Egypt
         </p>
       </div>
     </div>
+
+    
 
     {/* Abu Dhabi */}
     <div className="flex items-start gap-3">

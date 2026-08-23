@@ -13,13 +13,7 @@ export default function ContactInfo() {
       id: "minya",
       icon: MapPin,
       title: t("address"),
-      value: "El Minya, Egypt",
-    },
-    {
-      id: "cairo",
-      icon: MapPin,
-      title: t("address"),
-      value: "Cairo, Egypt",
+      value: "El Minya ,Cairo, Egypt",
     },
     {
       id: "abu-dhabi",
