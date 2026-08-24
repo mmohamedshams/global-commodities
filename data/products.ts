@@ -1889,13 +1889,13 @@ export const products: Product[] = [
     slug: "potato-seeds",
 
     name: {
-      en: "Potato Seeds",
-      ar: "تقاوي البطاطس",
+      en: "Spunta",
+      ar: " سبونتا",
     },
 
     shortDescription: {
-      en: "Premium certified potato seeds.",
-      ar: "تقاوي بطاطس معتمدة عالية الجودة.",
+      en: "Very well-known medium early ware variety. Good heat and drought resistance. High to very yields in different climate zones.",
+      ar: "صنف معروف جداً من الأصناف متوسطة النضج. يتميز بمقاومة جيدة للحرارة والجفاف. غلة عالية إلى عالية جداً في مختلف المناطق المناخية.",
     },
 
     description: {
@@ -1923,7 +1923,7 @@ export const products: Product[] = [
       ar: "تقاوي البطاطس",
     },
 
-    image: "/images/products/potato/cover.png",
+    image: "/images/products/seeds/Spunta/cover.png",
 
     gallery: [
       "/images/products/potato/1.jpg",
@@ -1934,17 +1934,16 @@ export const products: Product[] = [
 
   {
     id: 43,
-    slug: "tomato-seeds",
+    slug: "potato-seeds",
 
     name: {
-      en: "Tomato Seeds",
-      ar: "تقاوي الطماطم",
+      en: "Hermes",
+      ar: "هيرميس",
     },
 
     shortDescription: {
-      en: "High-quality tomato seeds.",
-      ar: "تقاوي طماطم عالية الجودة.",
-    },
+      en: "also available as organic seeds Medium early crisping variety with high dry matter and very good processing quality. Suitable for cultivation in many climate zones and for long-term storage.",
+      ar: "متوفر أيضاً كبذور عضوية.صنف متوسط ​​النضج، غني بالمواد الجافة، وذو جودة معالجة ممتازة. مناسب للزراعة في مناطق مناخية متعددة وللتخزين طويل الأمد."},
 
     description: {
       en: "Selected tomato seeds suitable for commercial farming and professional agricultural production.",
@@ -1971,7 +1970,7 @@ export const products: Product[] = [
       ar: "تقاوي خضروات",
     },
 
-    image: "/images/products/seeds/tomato/cover.jpg",
+    image: "/images/products/seeds/Hermes/cover.jpg",
 
     gallery: [
       "/images/products/seeds/tomato/1.jpg",
@@ -1985,13 +1984,13 @@ export const products: Product[] = [
     slug: "cucumber-seeds",
 
     name: {
-      en: "Cucumber Seeds",
-      ar: "تقاوي الخيار",
+      en: "Lady Rosetta",
+      ar: "ليدي روزيتا",
     },
 
     shortDescription: {
-      en: "Premium cucumber seeds.",
-      ar: "تقاوي خيار عالية الجودة.",
+      en: "Wide spread medium earl crisping variety for different climate zones with high dry matter and excellent processing quality. Can be processed immediately after harvest or after short-term storage",
+      ar: "مجموعة متنوعة من رقائق الإيرل المتوسطة واسعة الانتشار للمناطق المناخية المختلفة مع مادة جافة عالية وجودة معالجة ممتازة. يمكن معالجتها مباشرة بعد الحصاد أو بعد التخزين على المدى القصير",
     },
 
     description: {
@@ -2019,7 +2018,7 @@ export const products: Product[] = [
       ar: "تقاوي خضروات",
     },
 
-    image: "/images/products/seeds/cucumber/cover.jpg",
+    image: "/images/products/seeds/LadyRosetta/cover.jpg",
 
     gallery: [
       "/images/products/seeds/cucumber/1.jpg",
@@ -2033,13 +2032,13 @@ export const products: Product[] = [
     slug: "pepper-seeds",
 
     name: {
-      en: "Pepper Seeds",
-      ar: "تقاوي الفلفل",
+      en: "Cara",
+      ar: "كارا",
     },
 
     shortDescription: {
-      en: "Premium pepper seeds.",
-      ar: "تقاوي فلفل عالية الجودة.",
+      en: "Robust, medium early ware variety with very good disease resistance. High yielding and very uniform",
+      ar: "تنوع قوي ومتوسط ​​في وقت مبكر مع مقاومة جيدة جدًا للأمراض. عالية الغلة وموحدة للغاية ",
     },
 
     description: {
@@ -2067,7 +2066,104 @@ export const products: Product[] = [
       ar: "تقاوي خضروات",
     },
 
-    image: "/images/products/seeds/pepper/cover.jpg",
+    image: "/images/products/seeds/Cara/cover.jpg",
+
+    gallery: [
+      "/images/products/seeds/pepper/1.jpg",
+      "/images/products/seeds/pepper/2.jpg",
+      "/images/products/seeds/pepper/3.jpg",
+    ],
+  },
+
+
+  {
+    id: 45,
+    slug: "pepper-seeds",
+
+    name: {
+      en: "Agria",
+      ar: "أجريا",
+    },
+
+    shortDescription: {
+      en: "also available as organic seeds High yielding maincrop variety, yellow skin and yellow flesh, big oval to longoval tubers. Suitable for a range of uses including crisping, french fries, processing (starch/flake), as well as table use",
+      ar: "متوفر أيضًا كبذور عضويةمجموعة متنوعة من المحاصيل الرئيسية عالية الإنتاجية، القشرة الصفراء واللحم الأصفر، والدرنات البيضاوية الكبيرة إلى الطويلة البيضاوية. مناسبة لمجموعة من الاستخدامات بما في ذلك المقرمشة والبطاطس المقلية والمعالجة (النشا/الرقائق)، بالإضافة إلى استخدام الطاولة",
+    },
+
+    description: {
+      en: "High-quality pepper seeds suitable for commercial farms and greenhouse production.",
+      ar: "تقاوي فلفل عالية الجودة مناسبة للزراعة التجارية والزراعة داخل الصوب.",
+    },
+
+    origin: {
+      en: "Netherlands • Spain • Italy",
+      ar: "هولندا • إسبانيا • إيطاليا",
+    },
+
+    packaging: {
+      en: "Professional Seed Packs",
+      ar: "عبوات تقاوي احترافية",
+    },
+
+    productType: {
+      en: "Seeds",
+      ar: "تقاوي وبذور",
+    },
+
+    category: {
+      en: "Vegetable Seeds",
+      ar: "تقاوي خضروات",
+    },
+
+    image: "/images/products/seeds/Agria/cover.jpg",
+
+    gallery: [
+      "/images/products/seeds/pepper/1.jpg",
+      "/images/products/seeds/pepper/2.jpg",
+      "/images/products/seeds/pepper/3.jpg",
+    ],
+  },
+
+   {
+    id: 45,
+    slug: "pepper-seeds",
+
+    name: {
+      en: "Diamant",
+      ar: "الألماس",
+    },
+
+    shortDescription: {
+      en: "Cooking type B ware potato variety with suitability for the production of French Fries. Medium early to late maturity, light yellow flesh colour, oval tubershape with shallow eyes, good yielder.",
+      ar: "صنف بطاطس الطبخ من النوع B ومناسب لإنتاج البطاطس المقلية. متوسط ​​النضج المبكر إلى المتأخر، لون اللحم أصفر فاتح، شكل الدرنة بيضاوية مع عيون ضحلة، إنتاجية جيدة.",
+    },
+
+    description: {
+      en: "High-quality pepper seeds suitable for commercial farms and greenhouse production.",
+      ar: "تقاوي فلفل عالية الجودة مناسبة للزراعة التجارية والزراعة داخل الصوب.",
+    },
+
+    origin: {
+      en: "Netherlands • Spain • Italy",
+      ar: "هولندا • إسبانيا • إيطاليا",
+    },
+
+    packaging: {
+      en: "Professional Seed Packs",
+      ar: "عبوات تقاوي احترافية",
+    },
+
+    productType: {
+      en: "Seeds",
+      ar: "تقاوي وبذور",
+    },
+
+    category: {
+      en: "Vegetable Seeds",
+      ar: "تقاوي خضروات",
+    },
+
+    image: "/images/products/seeds/Diamant/cover.jpg",
 
     gallery: [
       "/images/products/seeds/pepper/1.jpg",

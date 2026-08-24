@@ -134,13 +134,13 @@ export default function Footer() {
       <MapPin
         size={18}
         className="mt-1 shrink-0 text-orange-500"
-      />
+/>
 
       <div>
         <p className="font-medium text-white">
           Minya
         </p>
-        <p className=" text-white">
+        <p className="font-medium text-white">
           ,Cairo
         </p>
         <p className="text-sm text-gray-400">
