@@ -470,7 +470,7 @@ export const products: Product[] = [
       ar: "حبوب",
     },
 
-    image: "/images/products/yellow-corn/cover.jpg",
+    image: "/images/products/yellow-corn/cover.png",
 
     gallery: [
       "/images/products/yellow-corn/1.jpg",
