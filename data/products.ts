@@ -1966,8 +1966,8 @@ export const products: Product[] = [
     },
 
     category: {
-      en: "Vegetable Seeds",
-      ar: "تقاوي خضروات",
+      en: "potato-seeds",
+      ar: "تقاوي البطاطس",
     },
 
     image: "/images/products/seeds/Hermes/cover.jpg",
@@ -2014,8 +2014,8 @@ export const products: Product[] = [
     },
 
     category: {
-      en: "Vegetable Seeds",
-      ar: "تقاوي خضروات",
+      en: "potato-seeds",
+      ar: "تقاوي البطاطس",
     },
 
     image: "/images/products/seeds/LadyRosetta/cover.jpg",
@@ -2062,8 +2062,8 @@ export const products: Product[] = [
     },
 
     category: {
-      en: "Vegetable Seeds",
-      ar: "تقاوي خضروات",
+      en: "potato-seeds",
+      ar: "تقاوي البطاطس",
     },
 
     image: "/images/products/seeds/Cara/cover.jpg",
@@ -2111,8 +2111,8 @@ export const products: Product[] = [
     },
 
     category: {
-      en: "Vegetable Seeds",
-      ar: "تقاوي خضروات",
+      en: "potato-seeds",
+      ar: "تقاوي البطاطس",
     },
 
     image: "/images/products/seeds/Agria/cover.jpg",
@@ -2159,8 +2159,8 @@ export const products: Product[] = [
     },
 
     category: {
-      en: "Vegetable Seeds",
-      ar: "تقاوي خضروات",
+      en: "potato-seeds",
+      ar: "تقاوي البطاطس",
     },
 
     image: "/images/products/seeds/Diamant/cover.jpg",
