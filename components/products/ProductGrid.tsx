@@ -6,7 +6,6 @@ import {
   Wheat,
   Apple,
   Sprout,
-  Leaf,
 } from "lucide-react";
 
 import { products } from "@/data/products";
@@ -36,21 +35,12 @@ const productTypes: {
     descriptionAr:
       "حبوب وبقوليات وبذور زيتية وحاصلات زراعية عالية الجودة.",
   },
-  {
-    value: "Vegetables",
-    icon: Leaf,
-    en: "Vegetables",
-    ar: "الخضروات",
-    descriptionEn:
-      "Fresh, carefully selected vegetables for global markets.",
-    descriptionAr:
-      "خضروات طازجة مختارة بعناية للأسواق العالمية.",
-  },
+
   {
     value: "Fruits",
     icon: Apple,
-    en: "Fruits",
-    ar: "الفواكه",
+    en: "Vegetables and Fruits",
+    ar: "الخضروات و الفاكهه",
     descriptionEn:
       "Fresh premium fruits sourced from trusted origins.",
     descriptionAr:
@@ -59,8 +49,8 @@ const productTypes: {
   {
     value: "Seeds",
     icon: Sprout,
-    en: "Seeds & Seedlings",
-    ar: "التقاوي والبذور",
+    en: "Seeds",
+    ar: "التقاوي",
     descriptionEn:
       "High-quality seeds for commercial and professional farming.",
     descriptionAr:
@@ -118,7 +108,7 @@ export default function ProductGrid() {
         </div>
 
         {/* Category Selector */}
-        <div className="mb-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3">
           {productTypes.map((type) => {
             const Icon = type.icon;
 

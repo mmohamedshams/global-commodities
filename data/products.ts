@@ -230,7 +230,7 @@ export const products: Product[] = [
       ar: "بقوليات",
     },
 
-    image: "/images/products/canadian-beans/cover.jpg",
+    image: "/images/products/canadian-beans/cover.png",
 
     gallery: [
       "/images/products/canadian-beans/1.jpg",
@@ -278,7 +278,7 @@ export const products: Product[] = [
       ar: "بقوليات",
     },
 
-    image: "/images/products/lithuanian-beans/cover.jpg",
+    image: "/images/products/lithuanian-beans/cover.png",
 
     gallery: [
       "/images/products/lithuanian-beans/1.jpg",
@@ -326,7 +326,7 @@ export const products: Product[] = [
       ar: "بقوليات",
     },
 
-    image: "/images/products/australian-beans/cover.jpg",
+    image: "/images/products/australian-beans/cover2.jpg",
 
     gallery: [
       "/images/products/australian-beans/1.jpg",
@@ -1981,7 +1981,7 @@ export const products: Product[] = [
 
   {
     id: 44,
-    slug: "cucumber-seeds",
+    slug: "potato-seeds",
 
     name: {
       en: "Lady Rosetta",
@@ -2029,7 +2029,7 @@ export const products: Product[] = [
 
   {
     id: 45,
-    slug: "pepper-seeds",
+    slug: "potato-seeds",
 
     name: {
       en: "Cara",
@@ -2077,8 +2077,8 @@ export const products: Product[] = [
 
 
   {
-    id: 45,
-    slug: "pepper-seeds",
+    id: 46,
+    slug: "potato-seeds",
 
     name: {
       en: "Agria",
@@ -2125,8 +2125,8 @@ export const products: Product[] = [
   },
 
    {
-    id: 45,
-    slug: "pepper-seeds",
+    id: 47,
+    slug: "potato-seeds",
 
     name: {
       en: "Diamant",
