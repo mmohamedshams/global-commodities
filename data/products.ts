@@ -86,7 +86,7 @@ export const products: Product[] = [
     ar: "حبوب",
   },
 
-  image: "/images/products/Agricultural Commodities/yellow-corn/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/yellow-corn/cover.jpg",
 
   gallery: [
     "/images/products/yellow-corn/1.jpg",
@@ -134,7 +134,7 @@ export const products: Product[] = [
     ar: "حبوب",
   },
 
-  image: "/images/products/Agricultural Commodities/barley/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/barley/cover.jpg",
 
   gallery: [
     "/images/products/barley/1.jpg",
@@ -182,7 +182,7 @@ export const products: Product[] = [
     ar: "حبوب",
   },
 
-  image: "/images/products/Agricultural Commodities/wheat/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/wheat/cover.jpg",
 
   gallery: [
     "/images/products/wheat/1.jpg",
@@ -230,7 +230,7 @@ export const products: Product[] = [
     ar: "حبوب",
   },
 
-  image: "/images/products/Agricultural Commodities/popcorn/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/popcorn/cover.jpg",
 
   gallery: [
     "/images/products/popcorn/1.jpg",
@@ -278,7 +278,7 @@ export const products: Product[] = [
     ar: "محاصيل زيتية",
   },
 
-  image: "/images/products/Agricultural Commodities/soybeans/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/soybeans/cover.jpg",
 
   gallery: [
     "/images/products/soybeans/1.jpg",
@@ -326,7 +326,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/hamburg-lupins/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/hamburg-lupins/cover.jpg",
 
   gallery: [
     "/images/products/hamburg-lupins/1.jpg",
@@ -374,7 +374,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/red-whole-lentils/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/red-whole-lentils/cover.jpg",
 
   gallery: [
     "/images/products/red-whole-lentils/1.jpg",
@@ -422,7 +422,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/green-whole-lentils/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/green-whole-lentils/cover.jpg",
 
   gallery: [
     "/images/products/green-whole-lentils/1.jpg",
@@ -470,7 +470,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/faba-beans/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/faba-beans/cover.jpg",
 
   gallery: [
     "/images/products/faba-beans/1.jpg",
@@ -518,7 +518,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/broad-beans/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/broad-beans/cover.jpg",
 
   gallery: [
     "/images/products/broad-beans/1.jpg",
@@ -566,7 +566,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/black-eye-beans/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/black-eye-beans/cover.jpg",
 
   gallery: [
     "/images/products/black-eye-beans/1.jpg",
@@ -614,7 +614,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/kabuli-white-chick-peas/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/kabuli-white-chick-peas/cover.jpg",
 
   gallery: [
     "/images/products/kabuli-white-chick-peas/1.jpg",
@@ -662,7 +662,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/green-blue-peas/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/green-blue-peas/cover.jpg",
 
   gallery: [
     "/images/products/green-blue-peas/1.jpg",
@@ -710,7 +710,7 @@ export const products: Product[] = [
     ar: "حبوب",
   },
 
-  image: "/images/products/Agricultural Commodities/white-sorghum/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/white-sorghum/cover.jpg",
 
   gallery: [
     "/images/products/white-sorghum/1.jpg",
@@ -757,7 +757,7 @@ export const products: Product[] = [
     ar: "محاصيل زيتية",
   },
 
-  image: "/images/products/Agricultural Commodities/linseeds/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/linseeds/cover.jpg",
 
   gallery: [
     "/images/products/linseeds/1.jpg",
@@ -805,7 +805,7 @@ export const products: Product[] = [
     ar: "بذور",
   },
 
-  image: "/images/products/Agricultural Commodities/lucerne-seeds/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/lucerne-seeds/cover.jpg",
 
   gallery: [
     "/images/products/lucerne-seeds/1.jpg",
@@ -852,7 +852,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/red-split-lentils/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/red-split-lentils/cover.jpg",
 
   gallery: [
     "/images/products/red-split-lentils/1.jpg",
@@ -900,7 +900,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/red-football-lentils/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/red-football-lentils/cover.jpg",
 
   gallery: [
     "/images/products/red-football-lentils/1.jpg",
@@ -947,7 +947,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/split-faba-beans/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/split-faba-beans/cover.jpg",
 
   gallery: [
     "/images/products/split-faba-beans/1.jpg",
@@ -995,7 +995,7 @@ export const products: Product[] = [
     ar: "بقوليات",
   },
 
-  image: "/images/products/Agricultural Commodities/processed-split-pulses/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/processed-split-pulses/cover.jpg",
 
   gallery: [
     "/images/products/processed-split-pulses/1.jpg",
@@ -1042,7 +1042,7 @@ export const products: Product[] = [
     ar: "محاصيل زيتية",
   },
 
-  image: "/images/products/Agricultural Commodities/sesame/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/sesame/cover.jpg",
 
   gallery: [
     "/images/products/sesame/1.jpg",
