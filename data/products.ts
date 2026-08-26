@@ -47,1265 +47,1022 @@ export const products: Product[] = [
   // 🌾 AGRICULTURAL COMMODITIES
   // =========================================================
 
-  {
-    id: 1,
-    slug: "sesame-seeds",
+ {
+  id: 1,
+  slug: "yellow-corn",
 
-    name: {
-      en: "Sesame Seeds",
-      ar: "السمسم",
-    },
-
-    shortDescription: {
-      en: "Premium natural sesame seeds.",
-      ar: "سمسم طبيعي عالي الجودة.",
-    },
-
-    description: {
-      en: "Premium sesame seeds suitable for food manufacturing, oil extraction, wholesale distribution, and international export markets.",
-      ar: "سمسم عالي الجودة مناسب للصناعات الغذائية واستخلاص الزيوت والتوزيع بالجملة والتصدير للأسواق العالمية.",
-    },
-
-    origin: {
-      en: "Argentina • Brazil • Paraguay",
-      ar: "الأرجنتين • البرازيل • باراجواي",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Seeds",
-      ar: "بذور",
-    },
-
-    image: "/images/products/sesame/cover.jpg",
-
-    gallery: [
-      "/images/products/sesame/1.jpg",
-      "/images/products/sesame/2.jpg",
-      "/images/products/sesame/3.jpg",
-    ],
+  name: {
+    en: "Yellow Corn",
+    ar: "الذرة الصفراء",
   },
 
-  {
-    id: 2,
-    slug: "popcorn",
-
-    name: {
-      en: "Popcorn",
-      ar: "الفشار",
-    },
-
-    shortDescription: {
-      en: "Premium popcorn kernels.",
-      ar: "حبوب فشار عالية الجودة.",
-    },
-
-    description: {
-      en: "Selected popcorn kernels with excellent popping rate, suitable for food processing and international markets.",
-      ar: "حبوب فشار مختارة بمعدل فرقعة ممتاز ومناسبة للصناعات الغذائية والأسواق العالمية.",
-    },
-
-    origin: {
-      en: "Brazil • Argentina",
-      ar: "البرازيل • الأرجنتين",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Grains",
-      ar: "حبوب",
-    },
-
-    image: "/images/products/popcorn/1.jpg",
-
-    gallery: [
-      "/images/products/popcorn/1.jpg",
-      "/images/products/popcorn/2.jpg",
-      "/images/products/popcorn/3.jpg",
-    ],
+  shortDescription: {
+    en: "High-quality yellow corn for feed and food processing.",
+    ar: "ذرة صفراء عالية الجودة للأعلاف والصناعات الغذائية.",
   },
 
-  {
-    id: 3,
-    slug: "cowpeas",
-
-    name: {
-      en: "Cowpeas",
-      ar: "اللوبيا",
-    },
-
-    shortDescription: {
-      en: "Premium quality cowpeas.",
-      ar: "لوبيا عالية الجودة.",
-    },
-
-    description: {
-      en: "Premium cowpeas carefully selected for food industries, wholesale distribution, and export markets.",
-      ar: "لوبيا عالية الجودة مختارة بعناية للصناعات الغذائية والتوزيع بالجملة والأسواق العالمية.",
-    },
-
-    origin: {
-      en: "Brazil • Argentina",
-      ar: "البرازيل • الأرجنتين",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Pulses",
-      ar: "بقوليات",
-    },
-
-    image: "/images/products/cowpeas/cover.jpg",
-
-    gallery: [
-      "/images/products/cowpeas/1.jpg",
-      "/images/products/cowpeas/2.jpg",
-      "/images/products/cowpeas/3.jpg",
-    ],
+  description: {
+    en: "High-quality yellow corn suitable for animal feed, food processing, starch production, and international markets.",
+    ar: "ذرة صفراء عالية الجودة مناسبة للأعلاف الحيوانية والصناعات الغذائية وإنتاج النشا والأسواق العالمية.",
   },
 
-  {
-    id: 4,
-    slug: "canadian-beans",
-
-    name: {
-      en: "Canadian Beans",
-      ar: "الفول الكندي",
-    },
-
-    shortDescription: {
-      en: "Premium Canadian beans.",
-      ar: "فول كندي عالي الجودة.",
-    },
-
-    description: {
-      en: "Imported Canadian beans suitable for food industries, wholesale distribution, and international markets.",
-      ar: "فول كندي مستورد مناسب للصناعات الغذائية والتوزيع بالجملة والأسواق العالمية.",
-    },
-
-    origin: {
-      en: "Canada",
-      ar: "كندا",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Pulses",
-      ar: "بقوليات",
-    },
-
-    image: "/images/products/canadian-beans/cover.png",
-
-    gallery: [
-      "/images/products/canadian-beans/1.jpg",
-      "/images/products/canadian-beans/2.jpg",
-      "/images/products/canadian-beans/3.jpg",
-    ],
+  origin: {
+    en: "Brazil • Argentina • Ukraine",
+    ar: "البرازيل • الأرجنتين • أوكرانيا",
   },
 
-  {
-    id: 5,
-    slug: "lithuanian-beans",
-
-    name: {
-      en: "Lithuanian Beans",
-      ar: "الفول الليتواني",
-    },
-
-    shortDescription: {
-      en: "Premium Lithuanian beans.",
-      ar: "فول ليتواني عالي الجودة.",
-    },
-
-    description: {
-      en: "Carefully selected Lithuanian beans suitable for wholesale distribution and international export markets.",
-      ar: "فول ليتواني مختار بعناية ومناسب للتوزيع بالجملة والتصدير للأسواق العالمية.",
-    },
-
-    origin: {
-      en: "Lithuania",
-      ar: "ليتوانيا",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Pulses",
-      ar: "بقوليات",
-    },
-
-    image: "/images/products/lithuanian-beans/cover.png",
-
-    gallery: [
-      "/images/products/lithuanian-beans/1.jpg",
-      "/images/products/lithuanian-beans/2.jpg",
-      "/images/products/lithuanian-beans/3.jpg",
-    ],
+  packaging: {
+    en: "50 KG Bags",
+    ar: "أجولة 50 كجم",
   },
 
-  {
-    id: 6,
-    slug: "australian-beans",
-
-    name: {
-      en: "Australian Beans",
-      ar: "الفول الأسترالي",
-    },
-
-    shortDescription: {
-      en: "Premium Australian beans.",
-      ar: "فول أسترالي عالي الجودة.",
-    },
-
-    description: {
-      en: "High-quality Australian beans suitable for food processing and international markets.",
-      ar: "فول أسترالي عالي الجودة مناسب للصناعات الغذائية والأسواق العالمية.",
-    },
-
-    origin: {
-      en: "Australia",
-      ar: "أستراليا",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Pulses",
-      ar: "بقوليات",
-    },
-
-    image: "/images/products/australian-beans/cover2.jpg",
-
-    gallery: [
-      "/images/products/australian-beans/1.jpg",
-      "/images/products/australian-beans/2.jpg",
-      "/images/products/australian-beans/3.jpg",
-    ],
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
   },
 
-  {
-    id: 7,
-    slug: "chickpeas",
-
-    name: {
-      en: "Chickpeas",
-      ar: "الحمص",
-    },
-
-    shortDescription: {
-      en: "Premium quality chickpeas.",
-      ar: "حمص عالي الجودة.",
-    },
-
-    description: {
-      en: "Premium chickpeas suitable for food processing, wholesale distribution, and international trade.",
-      ar: "حمص عالي الجودة مناسب للصناعات الغذائية والتوزيع بالجملة والتجارة الدولية.",
-    },
-
-    origin: {
-      en: "Canada • Australia • Turkey",
-      ar: "كندا • أستراليا • تركيا",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Pulses",
-      ar: "بقوليات",
-    },
-
-    image: "/images/products/chickpeas/cover.jpg",
-
-    gallery: [
-      "/images/products/chickpeas/1.jpg",
-      "/images/products/chickpeas/2.jpg",
-      "/images/products/chickpeas/3.jpg",
-    ],
+  category: {
+    en: "Grains",
+    ar: "حبوب",
   },
 
-  {
-    id: 8,
-    slug: "red-lentils",
+  image: "/images/products/Agricultural Commodities/yellow-corn/cover.jpg",
 
-    name: {
-      en: "Red Lentils",
-      ar: "العدس الأحمر",
-    },
+  gallery: [
+    "/images/products/yellow-corn/1.jpg",
+    "/images/products/yellow-corn/2.jpg",
+    "/images/products/yellow-corn/3.jpg",
+  ],
+},
 
-    shortDescription: {
-      en: "Premium red lentils for export.",
-      ar: "عدس أحمر فاخر للتصدير.",
-    },
+{
+  id: 2,
+  slug: "barley",
 
-    description: {
-      en: "High-quality red lentils sourced from trusted suppliers and suitable for international markets.",
-      ar: "عدس أحمر عالي الجودة من موردين موثوقين ومناسب للأسواق العالمية.",
-    },
-
-    origin: {
-      en: "Canada • Turkey • Kazakhstan",
-      ar: "كندا • تركيا • كازاخستان",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Pulses",
-      ar: "بقوليات",
-    },
-
-    image: "/images/products/red-lentils/cover.jpg",
-
-    gallery: [
-      "/images/products/red-lentils/1.jpg",
-      "/images/products/red-lentils/2.jpg",
-      "/images/products/red-lentils/3.jpg",
-    ],
+  name: {
+    en: "Barley",
+    ar: "الشعير",
   },
 
-  {
-    id: 9,
-    slug: "yellow-corn",
-
-    name: {
-      en: "Yellow Corn",
-      ar: "الذرة الصفراء",
-    },
-
-    shortDescription: {
-      en: "High-quality yellow corn for food and feed industries.",
-      ar: "ذرة صفراء عالية الجودة للصناعات الغذائية والأعلاف.",
-    },
-
-    description: {
-      en: "Premium yellow corn suitable for food production, animal feed, and international trade.",
-      ar: "ذرة صفراء عالية الجودة مناسبة للصناعات الغذائية والأعلاف والتصدير.",
-    },
-
-    origin: {
-      en: "Brazil • Argentina • Ukraine",
-      ar: "البرازيل • الأرجنتين • أوكرانيا",
-    },
-
-    packaging: {
-      en: "50 KG Bags",
-      ar: "أجولة 50 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Grains",
-      ar: "حبوب",
-    },
-
-    image: "/images/products/yellow-corn/cover.png",
-
-    gallery: [
-      "/images/products/yellow-corn/1.jpg",
-      "/images/products/yellow-corn/2.jpg",
-      "/images/products/yellow-corn/3.jpg",
-    ],
+  shortDescription: {
+    en: "Premium barley for feed, food, and industrial applications.",
+    ar: "شعير عالي الجودة للأعلاف والغذاء والاستخدامات الصناعية.",
   },
 
-  {
-    id: 10,
-    slug: "wheat",
-
-    name: {
-      en: "Wheat",
-      ar: "القمح",
-    },
-
-    shortDescription: {
-      en: "Premium milling wheat.",
-      ar: "قمح عالي الجودة للطحن.",
-    },
-
-    description: {
-      en: "Premium milling wheat suitable for flour production, food processing, and international markets.",
-      ar: "قمح عالي الجودة مناسب لإنتاج الدقيق والصناعات الغذائية والأسواق العالمية.",
-    },
-
-    origin: {
-      en: "Russia • Canada • Australia",
-      ar: "روسيا • كندا • أستراليا",
-    },
-
-    packaging: {
-      en: "50 KG Bags",
-      ar: "أجولة 50 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Grains",
-      ar: "حبوب",
-    },
-
-    image: "/images/products/wheat/cover.jpg",
-
-    gallery: [
-      "/images/products/wheat/1.jpg",
-      "/images/products/wheat/2.jpg",
-      "/images/products/wheat/3.jpg",
-    ],
+  description: {
+    en: "Premium quality barley suitable for animal feed, food processing, malting, and international agricultural markets.",
+    ar: "شعير عالي الجودة مناسب للأعلاف الحيوانية والصناعات الغذائية وإنتاج المالت والأسواق الزراعية العالمية.",
   },
 
-  {
-    id: 11,
-    slug: "sunflower-seeds",
-
-    name: {
-      en: "Sunflower Seeds",
-      ar: "بذور عباد الشمس",
-    },
-
-    shortDescription: {
-      en: "Premium sunflower seeds for food and oil production.",
-      ar: "بذور عباد الشمس عالية الجودة للأغذية وإنتاج الزيوت.",
-    },
-
-    description: {
-      en: "High-quality sunflower seeds suitable for food processing and oil extraction.",
-      ar: "بذور عباد الشمس عالية الجودة المناسبة للصناعات الغذائية واستخلاص الزيوت.",
-    },
-
-    origin: {
-      en: "Ukraine • Bulgaria • Romania",
-      ar: "أوكرانيا • بلغاريا • رومانيا",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Oilseeds",
-      ar: "بذور زيتية",
-    },
-
-    image: "/images/products/sunflower-seeds/cover.jpg",
-
-    gallery: [
-      "/images/products/sunflower-seeds/1.jpg",
-      "/images/products/sunflower-seeds/2.jpg",
-      "/images/products/sunflower-seeds/3.jpg",
-    ],
+  origin: {
+    en: "Russia • Ukraine • Australia",
+    ar: "روسيا • أوكرانيا • أستراليا",
   },
 
-  {
-    id: 12,
-    slug: "soybeans",
-
-    name: {
-      en: "Soybeans",
-      ar: "فول الصويا",
-    },
-
-    shortDescription: {
-      en: "Premium soybeans for food and feed industries.",
-      ar: "فول صويا عالي الجودة للصناعات الغذائية والأعلاف.",
-    },
-
-    description: {
-      en: "Premium soybeans suitable for food processing, oil extraction, and animal feed.",
-      ar: "فول صويا عالي الجودة مناسب للصناعات الغذائية واستخلاص الزيوت والأعلاف.",
-    },
-
-    origin: {
-      en: "Brazil • Argentina • United States",
-      ar: "البرازيل • الأرجنتين • الولايات المتحدة",
-    },
-
-    packaging: {
-      en: "50 KG Bags",
-      ar: "أجولة 50 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Oilseeds",
-      ar: "بذور زيتية",
-    },
-
-    image: "/images/products/soybeans/cover.jpg",
-
-    gallery: [
-      "/images/products/soybeans/1.jpg",
-      "/images/products/soybeans/2.jpg",
-      "/images/products/soybeans/3.jpg",
-    ],
+  packaging: {
+    en: "50 KG Bags",
+    ar: "أجولة 50 كجم",
   },
 
-  {
-    id: 13,
-    slug: "white-beans",
-
-    name: {
-      en: "White Beans",
-      ar: "الفاصوليا البيضاء",
-    },
-
-    shortDescription: {
-      en: "Premium white beans for export.",
-      ar: "فاصوليا بيضاء عالية الجودة للتصدير.",
-    },
-
-    description: {
-      en: "High-quality white beans sourced from trusted farms and suitable for international markets.",
-      ar: "فاصوليا بيضاء عالية الجودة من أفضل المزارع ومناسبة للتصدير.",
-    },
-
-    origin: {
-      en: "Canada • Argentina • Egypt",
-      ar: "كندا • الأرجنتين • مصر",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Pulses",
-      ar: "بقوليات",
-    },
-
-    image: "/images/products/white-beans/cover.jpg",
-
-    gallery: [
-      "/images/products/white-beans/1.jpg",
-      "/images/products/white-beans/2.jpg",
-      "/images/products/white-beans/3.jpg",
-    ],
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
   },
 
-  {
-    id: 14,
-    slug: "kidney-beans",
-
-    name: {
-      en: "Red Kidney Beans",
-      ar: "الفاصوليا الحمراء",
-    },
-
-    shortDescription: {
-      en: "Premium red kidney beans.",
-      ar: "فاصوليا حمراء عالية الجودة.",
-    },
-
-    description: {
-      en: "Premium red kidney beans suitable for wholesale distribution and global export.",
-      ar: "فاصوليا حمراء عالية الجودة مناسبة للبيع بالجملة والتصدير.",
-    },
-
-    origin: {
-      en: "Argentina • China • Canada",
-      ar: "الأرجنتين • الصين • كندا",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Pulses",
-      ar: "بقوليات",
-    },
-
-    image: "/images/products/kidney-beans/cover.jpg",
-
-    gallery: [
-      "/images/products/kidney-beans/1.jpg",
-      "/images/products/kidney-beans/2.jpg",
-      "/images/products/kidney-beans/3.jpg",
-    ],
+  category: {
+    en: "Grains",
+    ar: "حبوب",
   },
 
-  {
-    id: 15,
-    slug: "peanuts",
+  image: "/images/products/Agricultural Commodities/barley/cover.jpg",
 
-    name: {
-      en: "Peanuts",
-      ar: "الفول السوداني",
-    },
+  gallery: [
+    "/images/products/barley/1.jpg",
+    "/images/products/barley/2.jpg",
+    "/images/products/barley/3.jpg",
+  ],
+},
 
-    shortDescription: {
-      en: "Premium peanuts for food industries.",
-      ar: "فول سوداني عالي الجودة للصناعات الغذائية.",
-    },
+{
+  id: 3,
+  slug: "wheat",
 
-    description: {
-      en: "Premium peanuts suitable for roasting, food production, wholesale distribution, and export markets.",
-      ar: "فول سوداني عالي الجودة مناسب للتحميص والصناعات الغذائية والتوزيع بالجملة والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • India • Argentina",
-      ar: "مصر • الهند • الأرجنتين",
-    },
-
-    packaging: {
-      en: "25 KG Bags",
-      ar: "أجولة 25 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Nuts",
-      ar: "مكسرات",
-    },
-
-    image: "/images/products/peanuts/cover.jpg",
-
-    gallery: [
-      "/images/products/peanuts/1.jpg",
-      "/images/products/peanuts/2.jpg",
-      "/images/products/peanuts/3.jpg",
-    ],
+  name: {
+    en: "Wheat",
+    ar: "القمح",
   },
 
-  {
-    id: 16,
-    slug: "barley",
-
-    name: {
-      en: "Barley",
-      ar: "الشعير",
-    },
-
-    shortDescription: {
-      en: "Premium barley for food and feed.",
-      ar: "شعير عالي الجودة للأغذية والأعلاف.",
-    },
-
-    description: {
-      en: "High-quality barley suitable for food processing, brewing, and animal feed.",
-      ar: "شعير عالي الجودة مناسب للصناعات الغذائية والأعلاف.",
-    },
-
-    origin: {
-      en: "Australia • Russia • France",
-      ar: "أستراليا • روسيا • فرنسا",
-    },
-
-    packaging: {
-      en: "50 KG Bags",
-      ar: "أجولة 50 كجم",
-    },
-
-    productType: {
-      en: "Agricultural Commodities",
-      ar: "حاصلات زراعية",
-    },
-
-    category: {
-      en: "Grains",
-      ar: "حبوب",
-    },
-
-    image: "/images/products/barley/cover.jpg",
-
-    gallery: [
-      "/images/products/barley/1.jpg",
-      "/images/products/barley/2.jpg",
-      "/images/products/barley/3.jpg",
-    ],
+  shortDescription: {
+    en: "Premium milling wheat.",
+    ar: "قمح عالي الجودة للطحن.",
   },
 
+  description: {
+    en: "Premium milling wheat suitable for flour production, food processing, and international markets.",
+    ar: "قمح عالي الجودة مناسب لإنتاج الدقيق والصناعات الغذائية والأسواق العالمية.",
+  },
 
+  origin: {
+    en: "Russia • Canada • Australia",
+    ar: "روسيا • كندا • أستراليا",
+  },
+
+  packaging: {
+    en: "50 KG Bags",
+    ar: "أجولة 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Grains",
+    ar: "حبوب",
+  },
+
+  image: "/images/products/Agricultural Commodities/wheat/cover.jpg",
+
+  gallery: [
+    "/images/products/wheat/1.jpg",
+    "/images/products/wheat/2.jpg",
+    "/images/products/wheat/3.jpg",
+  ],
+},
+
+{
+  id: 4,
+  slug: "popcorn",
+
+  name: {
+    en: "Popcorn",
+    ar: "ذرة الفشار",
+  },
+
+  shortDescription: {
+    en: "Premium quality popcorn kernels.",
+    ar: "حبوب فشار عالية الجودة.",
+  },
+
+  description: {
+    en: "Premium popcorn kernels selected for excellent popping performance, suitable for food processing and retail markets.",
+    ar: "حبوب فشار عالية الجودة مختارة للحصول على أفضل نتائج عند التحضير، ومناسبة للصناعات الغذائية وأسواق التجزئة.",
+  },
+
+  origin: {
+    en: "Argentina • Brazil • USA",
+    ar: "الأرجنتين • البرازيل • الولايات المتحدة",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Grains",
+    ar: "حبوب",
+  },
+
+  image: "/images/products/Agricultural Commodities/popcorn/cover.jpg",
+
+  gallery: [
+    "/images/products/popcorn/1.jpg",
+    "/images/products/popcorn/2.jpg",
+    "/images/products/popcorn/3.jpg",
+  ],
+},
+
+{
+  id: 5,
+  slug: "soybeans",
+
+  name: {
+    en: "Soybeans",
+    ar: "فول الصويا",
+  },
+
+  shortDescription: {
+    en: "High-quality soybeans for feed and food processing.",
+    ar: "فول صويا عالي الجودة للأعلاف والصناعات الغذائية.",
+  },
+
+  description: {
+    en: "High-quality soybeans suitable for animal feed, soybean meal production, oil extraction, and food processing.",
+    ar: "فول صويا عالي الجودة مناسب للأعلاف الحيوانية وإنتاج كسب الصويا واستخلاص الزيوت والصناعات الغذائية.",
+  },
+
+  origin: {
+    en: "Brazil • Argentina • USA",
+    ar: "البرازيل • الأرجنتين • الولايات المتحدة",
+  },
+
+  packaging: {
+    en: "Bulk / 50 KG Bags",
+    ar: "سائب / أجولة 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Oilseeds",
+    ar: "محاصيل زيتية",
+  },
+
+  image: "/images/products/Agricultural Commodities/soybeans/cover.jpg",
+
+  gallery: [
+    "/images/products/soybeans/1.jpg",
+    "/images/products/soybeans/2.jpg",
+    "/images/products/soybeans/3.jpg",
+  ],
+},
+
+{
+  id: 6,
+  slug: "hamburg-lupins",
+
+  name: {
+    en: "Hamburg Lupins",
+    ar: "ترمس ",
+  },
+
+  shortDescription: {
+    en: "Premium Hamburg lupins for food and feed applications.",
+    ar: "ترمس  عالي الجودة للاستخدامات الغذائية والأعلاف.",
+  },
+
+  description: {
+    en: "Premium Hamburg lupins carefully selected for food processing, animal feed, and international agricultural markets.",
+    ar: "ترمس  عالي الجودة يتم اختياره بعناية للاستخدام في الصناعات الغذائية والأعلاف والأسواق الزراعية العالمية.",
+  },
+
+  origin: {
+    en: "Australia • Germany • Poland",
+    ar: "أستراليا • ألمانيا • بولندا",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/hamburg-lupins/cover.jpg",
+
+  gallery: [
+    "/images/products/hamburg-lupins/1.jpg",
+    "/images/products/hamburg-lupins/2.jpg",
+    "/images/products/hamburg-lupins/3.jpg",
+  ],
+},
+
+{
+  id: 7,
+  slug: "red-whole-lentils",
+
+  name: {
+    en: "Red Whole Lentils",
+    ar: "العدس الأحمر ",
+  },
+
+  shortDescription: {
+    en: "Premium whole red lentils for food processing.",
+    ar: "عدس أحمر  عالي الجودة للصناعات الغذائية.",
+  },
+
+  description: {
+    en: "Premium whole red lentils suitable for food processing, retail markets, and international trade.",
+    ar: "عدس أحمر  عالي الجودة مناسب للصناعات الغذائية وأسواق التجزئة والتجارة الدولية.",
+  },
+
+  origin: {
+    en: "Canada • Australia • Turkey",
+    ar: "كندا • أستراليا • تركيا",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/red-whole-lentils/cover.jpg",
+
+  gallery: [
+    "/images/products/red-whole-lentils/1.jpg",
+    "/images/products/red-whole-lentils/2.jpg",
+    "/images/products/red-whole-lentils/3.jpg",
+  ],
+},
+
+{
+  id: 8,
+  slug: "green-whole-lentils",
+
+  name: {
+    en: "Green Whole Lentils",
+    ar: "العدس الأخضر ",
+  },
+
+  shortDescription: {
+    en: "Premium green whole lentils for food markets.",
+    ar: "عدس أخضر  عالي الجودة للأسواق الغذائية.",
+  },
+
+  description: {
+    en: "High-quality green whole lentils suitable for food processing, retail packaging, and international markets.",
+    ar: "عدس أخضر  عالي الجودة مناسب للصناعات الغذائية والتعبئة وأسواق التصدير العالمية.",
+  },
+
+  origin: {
+    en: "Canada • Australia • Turkey",
+    ar: "كندا • أستراليا • تركيا",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/green-whole-lentils/cover.jpg",
+
+  gallery: [
+    "/images/products/green-whole-lentils/1.jpg",
+    "/images/products/green-whole-lentils/2.jpg",
+    "/images/products/green-whole-lentils/3.jpg",
+  ],
+},
+
+{
+  id: 9,
+  slug: "faba-beans",
+
+  name: {
+    en: "Faba Beans",
+    ar: "الفول البلدي",
+  },
+
+  shortDescription: {
+    en: "Premium faba beans for food processing and trade.",
+    ar: "فول عالي الجودة للصناعات الغذائية والتجارة الدولية.",
+  },
+
+  description: {
+    en: "Premium quality faba beans suitable for human consumption, food processing, and international agricultural markets.",
+    ar: "فول عالي الجودة مناسب للاستهلاك الآدمي والصناعات الغذائية والأسواق الزراعية العالمية.",
+  },
+
+  origin: {
+    en: "Australia • Egypt • UK",
+    ar: "أستراليا • مصر • المملكة المتحدة",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/faba-beans/cover.jpg",
+
+  gallery: [
+    "/images/products/faba-beans/1.jpg",
+    "/images/products/faba-beans/2.jpg",
+    "/images/products/faba-beans/3.jpg",
+  ],
+},
+
+{
+  id: 10,
+  slug: "broad-beans",
+
+  name: {
+    en: "Broad Beans",
+    ar: "الفول العريض",
+  },
+
+  shortDescription: {
+    en: "High-quality broad beans for food and feed applications.",
+    ar: "فول عريض عالي الجودة للاستخدامات الغذائية والأعلاف.",
+  },
+
+  description: {
+    en: "High-quality broad beans suitable for human consumption, animal feed, food processing, and international markets.",
+    ar: "فول عريض عالي الجودة مناسب للاستهلاك الآدمي والأعلاف الحيوانية والصناعات الغذائية والأسواق العالمية.",
+  },
+
+  origin: {
+    en: "Australia • UK • France",
+    ar: "أستراليا • المملكة المتحدة • فرنسا",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/broad-beans/cover.jpg",
+
+  gallery: [
+    "/images/products/broad-beans/1.jpg",
+    "/images/products/broad-beans/2.jpg",
+    "/images/products/broad-beans/3.jpg",
+  ],
+},
+
+{
+  id: 11,
+  slug: "black-eye-beans",
+
+  name: {
+    en: "Black Eye Beans",
+    ar: "الفاصوليا ذات العين السوداء",
+  },
+
+  shortDescription: {
+    en: "Premium black eye beans for food markets.",
+    ar: "فاصوليا ذات عين سوداء عالية الجودة للأسواق الغذائية.",
+  },
+
+  description: {
+    en: "Premium black eye beans suitable for human consumption, food processing, retail packaging, and international trade.",
+    ar: "فاصوليا ذات عين سوداء عالية الجودة مناسبة للاستهلاك الآدمي والصناعات الغذائية والتعبئة والتجارة الدولية.",
+  },
+
+  origin: {
+    en: "USA • Brazil • Argentina",
+    ar: "الولايات المتحدة • البرازيل • الأرجنتين",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/black-eye-beans/cover.jpg",
+
+  gallery: [
+    "/images/products/black-eye-beans/1.jpg",
+    "/images/products/black-eye-beans/2.jpg",
+    "/images/products/black-eye-beans/3.jpg",
+  ],
+},
+
+{
+  id: 12,
+  slug: "kabuli-white-chick-peas",
+
+  name: {
+    en: "Kabuli White Chick Peas",
+    ar: "الحمص الأبيض كابولي",
+  },
+
+  shortDescription: {
+    en: "Premium Kabuli chick peas with excellent quality and size.",
+    ar: "حمص كابولي أبيض عالي الجودة وبأحجام ممتازة.",
+  },
+
+  description: {
+    en: "Premium Kabuli white chick peas selected for excellent size, appearance, taste, and suitability for food processing and retail markets.",
+    ar: "حمص كابولي أبيض عالي الجودة يتميز بالحجم والمظهر والطعم الممتاز، ومناسب للصناعات الغذائية وأسواق التجزئة.",
+  },
+
+  origin: {
+    en: "Canada • Argentina • Mexico",
+    ar: "كندا • الأرجنتين • المكسيك",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/kabuli-white-chick-peas/cover.jpg",
+
+  gallery: [
+    "/images/products/kabuli-white-chick-peas/1.jpg",
+    "/images/products/kabuli-white-chick-peas/2.jpg",
+    "/images/products/kabuli-white-chick-peas/3.jpg",
+  ],
+},
+
+{
+  id: 13,
+  slug: "green-blue-peas",
+
+  name: {
+    en: "Green Blue Peas",
+    ar: "البازلاء الخضراء ",
+  },
+
+  shortDescription: {
+    en: "High-quality green and blue peas for food applications.",
+    ar: "بازلاء خضراء وزرقاء عالية الجودة للاستخدامات الغذائية.",
+  },
+
+  description: {
+    en: "High-quality green and blue peas suitable for food processing, retail packaging, and international agricultural markets.",
+    ar: "بازلاء خضراء وزرقاء عالية الجودة مناسبة للصناعات الغذائية والتعبئة وأسواق التصدير العالمية.",
+  },
+
+  origin: {
+    en: "Canada • USA • Australia",
+    ar: "كندا • الولايات المتحدة • أستراليا",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/green-blue-peas/cover.jpg",
+
+  gallery: [
+    "/images/products/green-blue-peas/1.jpg",
+    "/images/products/green-blue-peas/2.jpg",
+    "/images/products/green-blue-peas/3.jpg",
+  ],
+},
+
+{
+  id: 14,
+  slug: "white-sorghum",
+
+  name: {
+    en: "White Sorghum",
+    ar: "الذرة الرفيعة البيضاء",
+  },
+
+  shortDescription: {
+    en: "Premium white sorghum for food and feed applications.",
+    ar: "ذرة رفيعة بيضاء عالية الجودة للاستخدامات الغذائية والأعلاف.",
+  },
+
+  description: {
+    en: "Premium white sorghum suitable for animal feed, food processing, flour production, and international agricultural markets.",
+    ar: "ذرة رفيعة بيضاء عالية الجودة مناسبة للأعلاف الحيوانية والصناعات الغذائية وإنتاج الدقيق والأسواق الزراعية العالمية.",
+  },
+
+  origin: {
+    en: "Australia • Argentina • USA",
+    ar: "أستراليا • الأرجنتين • الولايات المتحدة",
+  },
+
+  packaging: {
+    en: "50 KG Bags / Bulk",
+    ar: "أجولة 50 كجم / سائب",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Grains",
+    ar: "حبوب",
+  },
+
+  image: "/images/products/Agricultural Commodities/white-sorghum/cover.jpg",
+
+  gallery: [
+    "/images/products/white-sorghum/1.jpg",
+    "/images/products/white-sorghum/2.jpg",
+    "/images/products/white-sorghum/3.jpg",
+  ],
+},
+{
+  id: 15,
+  slug: "linseeds",
+
+  name: {
+    en: "Linseeds",
+    ar: "بذور الكتان",
+  },
+
+  shortDescription: {
+    en: "Premium linseeds for food, feed, and oil production.",
+    ar: "بذور كتان عالية الجودة للاستخدامات الغذائية والأعلاف وإنتاج الزيوت.",
+  },
+
+  description: {
+    en: "Premium quality linseeds suitable for oil extraction, food processing, animal feed, and international agricultural markets.",
+    ar: "بذور كتان عالية الجودة مناسبة لاستخلاص الزيوت والصناعات الغذائية والأعلاف الحيوانية والأسواق الزراعية العالمية.",
+  },
+
+  origin: {
+    en: "Canada • Kazakhstan • Russia",
+    ar: "كندا • كازاخستان • روسيا",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Oilseeds",
+    ar: "محاصيل زيتية",
+  },
+
+  image: "/images/products/Agricultural Commodities/linseeds/cover.jpg",
+
+  gallery: [
+    "/images/products/linseeds/1.jpg",
+    "/images/products/linseeds/2.jpg",
+    "/images/products/linseeds/3.jpg",
+  ],
+},
+
+{
+  id: 16,
+  slug: "lucerne-seeds",
+
+  name: {
+    en: "Lucerne Seeds",
+    ar: "بذور  الحجازي",
+  },
+
+  shortDescription: {
+    en: "Premium lucerne seeds for high-quality forage production.",
+    ar: "بذور  حجازي عالية الجودة لإنتاج أعلاف ممتازة.",
+  },
+
+  description: {
+    en: "High-quality lucerne seeds selected for excellent germination and forage production, suitable for livestock farming and agricultural markets.",
+    ar: "بذور برسيم حجازي عالية الجودة مختارة لتحقيق إنبات ممتاز وإنتاج أعلاف غنية، ومناسبة لتربية الماشية والأسواق الزراعية.",
+  },
+
+  origin: {
+    en: "Australia • USA • Italy",
+    ar: "أستراليا • الولايات المتحدة • إيطاليا",
+  },
+
+  packaging: {
+    en: "25 KG Bags",
+    ar: "أجولة 25 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Seeds",
+    ar: "بذور",
+  },
+
+  image: "/images/products/Agricultural Commodities/lucerne-seeds/cover.jpg",
+
+  gallery: [
+    "/images/products/lucerne-seeds/1.jpg",
+    "/images/products/lucerne-seeds/2.jpg",
+    "/images/products/lucerne-seeds/3.jpg",
+  ],
+},
+{
+  id: 17,
+  slug: "red-split-lentils",
+
+  name: {
+    en: "Red Split Lentils",
+    ar: "العدس الأحمر المجروش",
+  },
+
+  shortDescription: {
+    en: "Premium red split lentils for food processing.",
+    ar: "عدس أحمر مجروش عالي الجودة للصناعات الغذائية.",
+  },
+
+  description: {
+    en: "Premium red split lentils, carefully processed and suitable for food production, retail markets, and international trade.",
+    ar: "عدس أحمر مجروش عالي الجودة، معالج بعناية ومناسب لإنتاج الأغذية وأسواق التجزئة والتجارة الدولية.",
+  },
+
+  origin: {
+    en: "Canada • Australia • Turkey",
+    ar: "كندا • أستراليا • تركيا",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/red-split-lentils/cover.jpg",
+
+  gallery: [
+    "/images/products/red-split-lentils/1.jpg",
+    "/images/products/red-split-lentils/2.jpg",
+    "/images/products/red-split-lentils/3.jpg",
+  ],
+},
+
+{
+  id: 18,
+  slug: "red-football-lentils",
+
+  name: {
+    en: "Red Football Lentils",
+    ar: "العدس الأحمر ",
+  },
+
+  shortDescription: {
+    en: "Premium red football lentils for food markets.",
+    ar: "عدس أحمر  عالي الجودة للأسواق الغذائية.",
+  },
+
+  description: {
+    en: "High-quality red football lentils with excellent color and size, suitable for food processing, retail packaging, and international markets.",
+    ar: "عدس أحمر كروي عالي الجودة يتميز باللون والحجم الممتاز، ومناسب للصناعات الغذائية والتعبئة وأسواق التصدير العالمية.",
+  },
+
+  origin: {
+    en: "Canada • Australia • Turkey",
+    ar: "كندا • أستراليا • تركيا",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/red-football-lentils/cover.jpg",
+
+  gallery: [
+    "/images/products/red-football-lentils/1.jpg",
+    "/images/products/red-football-lentils/2.jpg",
+    "/images/products/red-football-lentils/3.jpg",
+  ],
+},
+{
+  id: 19,
+  slug: "split-faba-beans",
+
+  name: {
+    en: "Split Faba Beans",
+    ar: "الفول المجروش",
+  },
+
+  shortDescription: {
+    en: "Premium split faba beans for food and feed applications.",
+    ar: "فول مجروش عالي الجودة للاستخدامات الغذائية والأعلاف.",
+  },
+
+  description: {
+    en: "High-quality split faba beans carefully processed for food production, animal feed, and international agricultural markets.",
+    ar: "فول مجروش عالي الجودة تتم معالجته بعناية لإنتاج الأغذية والأعلاف الحيوانية والأسواق الزراعية العالمية.",
+  },
+
+  origin: {
+    en: "Australia • Egypt • UK",
+    ar: "أستراليا • مصر • المملكة المتحدة",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/split-faba-beans/cover.jpg",
+
+  gallery: [
+    "/images/products/split-faba-beans/1.jpg",
+    "/images/products/split-faba-beans/2.jpg",
+    "/images/products/split-faba-beans/3.jpg",
+  ],
+},
+
+{
+  id: 20,
+  slug: "processed-split-pulses",
+
+  name: {
+    en: "Processed & Split Pulses",
+    ar: "البقوليات المعالجة والمجروشة",
+  },
+
+  shortDescription: {
+    en: "Processed and split pulses prepared for food and industrial applications.",
+    ar: "بقوليات معالجة ومجروشة مجهزة للاستخدامات الغذائية والصناعية.",
+  },
+
+  description: {
+    en: "A range of carefully processed and split pulses suitable for food manufacturing, retail packaging, animal feed, and international markets.",
+    ar: "مجموعة من البقوليات التي تتم معالجتها وتجهيزها بعناية، ومناسبة للصناعات الغذائية والتعبئة والأعلاف الحيوانية والأسواق العالمية.",
+  },
+
+  origin: {
+    en: "Canada • Australia • Egypt",
+    ar: "كندا • أستراليا • مصر",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Processed Pulses",
+    ar: "بقوليات معالجة",
+  },
+
+  category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural Commodities/processed-split-pulses/cover.jpg",
+
+  gallery: [
+    "/images/products/processed-split-pulses/1.jpg",
+    "/images/products/processed-split-pulses/2.jpg",
+    "/images/products/processed-split-pulses/3.jpg",
+  ],
+},
+{
+  id: 21,
+  slug: "sesame",
+
+  name: {
+    en: "Sesame",
+    ar: "السمسم",
+  },
+
+  shortDescription: {
+    en: "Premium sesame seeds for food and oil production.",
+    ar: "بذور سمسم عالية الجودة للاستخدامات الغذائية وإنتاج الزيوت.",
+  },
+
+  description: {
+    en: "Premium quality sesame seeds carefully selected for food processing, tahini production, sesame oil extraction, and international markets.",
+    ar: "بذور سمسم عالية الجودة يتم اختيارها بعناية للصناعات الغذائية وإنتاج الطحينة واستخلاص زيت السمسم والأسواق العالمية.",
+  },
+
+  origin: {
+    en: "Sudan • India • Nigeria",
+    ar: "السودان • الهند • نيجيريا",
+  },
+
+  packaging: {
+    en: "25 KG / 50 KG Bags",
+    ar: "أجولة 25 / 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+  category: {
+    en: "Oilseeds",
+    ar: "محاصيل زيتية",
+  },
+
+  image: "/images/products/Agricultural Commodities/sesame/cover.jpg",
+
+  gallery: [
+    "/images/products/sesame/1.jpg",
+    "/images/products/sesame/2.jpg",
+    "/images/products/sesame/3.jpg",
+  ],
+},
   // =========================================================
   // 🥬 VEGETABLES
   // =========================================================
 
-  {
-    id: 20,
-    slug: "potatoes",
-
-    name: {
-      en: "Potatoes",
-      ar: "البطاطس",
-    },
-
-    shortDescription: {
-      en: "Fresh premium potatoes.",
-      ar: "بطاطس طازجة عالية الجودة.",
-    },
-
-    description: {
-      en: "Fresh premium potatoes suitable for fresh markets, food processing, wholesale distribution, and export.",
-      ar: "بطاطس طازجة عالية الجودة مناسبة للأسواق الطازجة والتصنيع الغذائي والتوزيع بالجملة والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • Netherlands • France",
-      ar: "مصر • هولندا • فرنسا",
-    },
-
-    packaging: {
-      en: "10 KG • 25 KG Bags",
-      ar: "أجولة 10 • 25 كجم",
-    },
-
-    productType: {
-      en: "Vegetables",
-      ar: "خضروات",
-    },
-
-    category: {
-      en: "Root Vegetables",
-      ar: "خضروات جذرية",
-    },
-
-    image: "/images/products/vegetables/potatoes/cover.jpg",
-
-    gallery: [
-      "/images/products/vegetables/potatoes/1.jpg",
-      "/images/products/vegetables/potatoes/2.jpg",
-      "/images/products/vegetables/potatoes/3.jpg",
-    ],
-  },
-
-  {
-    id: 21,
-    slug: "onions",
-
-    name: {
-      en: "Onions",
-      ar: "البصل",
-    },
-
-    shortDescription: {
-      en: "Fresh high-quality onions.",
-      ar: "بصل طازج عالي الجودة.",
-    },
-
-    description: {
-      en: "Fresh onions carefully selected for retail, food processing, wholesale distribution, and export.",
-      ar: "بصل طازج مختار بعناية للبيع والتصنيع الغذائي والتوزيع بالجملة والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • Netherlands • India",
-      ar: "مصر • هولندا • الهند",
-    },
-
-    packaging: {
-      en: "10 KG • 25 KG Bags",
-      ar: "أجولة 10 • 25 كجم",
-    },
-
-    productType: {
-      en: "Vegetables",
-      ar: "خضروات",
-    },
-
-    category: {
-      en: "Bulb Vegetables",
-      ar: "خضروات بصلية",
-    },
-
-    image: "/images/products/vegetables/onions/cover.jpg",
-
-    gallery: [
-      "/images/products/vegetables/onions/1.jpg",
-      "/images/products/vegetables/onions/2.jpg",
-      "/images/products/vegetables/onions/3.jpg",
-    ],
-  },
-
-  {
-    id: 22,
-    slug: "garlic",
-
-    name: {
-      en: "Garlic",
-      ar: "الثوم",
-    },
-
-    shortDescription: {
-      en: "Premium fresh garlic.",
-      ar: "ثوم طازج عالي الجودة.",
-    },
-
-    description: {
-      en: "Premium fresh garlic suitable for food processing, retail distribution, and international export.",
-      ar: "ثوم طازج عالي الجودة مناسب للصناعات الغذائية والتوزيع والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • China • Spain",
-      ar: "مصر • الصين • إسبانيا",
-    },
-
-    packaging: {
-      en: "5 KG • 10 KG Bags",
-      ar: "أجولة 5 • 10 كجم",
-    },
-
-    productType: {
-      en: "Vegetables",
-      ar: "خضروات",
-    },
-
-    category: {
-      en: "Bulb Vegetables",
-      ar: "خضروات بصلية",
-    },
-
-    image: "/images/products/vegetables/garlic/cover.jpg",
-
-    gallery: [
-      "/images/products/vegetables/garlic/1.jpg",
-      "/images/products/vegetables/garlic/2.jpg",
-      "/images/products/vegetables/garlic/3.jpg",
-    ],
-  },
-
-  {
-    id: 23,
-    slug: "tomatoes",
-
-    name: {
-      en: "Tomatoes",
-      ar: "الطماطم",
-    },
-
-    shortDescription: {
-      en: "Fresh premium tomatoes.",
-      ar: "طماطم طازجة عالية الجودة.",
-    },
-
-    description: {
-      en: "Fresh tomatoes selected for supermarkets, food processing, wholesale distribution, and export markets.",
-      ar: "طماطم طازجة مختارة بعناية للسوبر ماركت والتصنيع الغذائي والتوزيع بالجملة والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • Turkey • Morocco",
-      ar: "مصر • تركيا • المغرب",
-    },
-
-    packaging: {
-      en: "5 KG • 10 KG Cartons",
-      ar: "كرتونة 5 • 10 كجم",
-    },
-
-    productType: {
-      en: "Vegetables",
-      ar: "خضروات",
-    },
-
-    category: {
-      en: "Fresh Vegetables",
-      ar: "خضروات طازجة",
-    },
-
-    image: "/images/products/vegetables/tomatoes/cover.jpg",
-
-    gallery: [
-      "/images/products/vegetables/tomatoes/1.jpg",
-      "/images/products/vegetables/tomatoes/2.jpg",
-      "/images/products/vegetables/tomatoes/3.jpg",
-    ],
-  },
-
-  {
-    id: 24,
-    slug: "carrots",
-
-    name: {
-      en: "Carrots",
-      ar: "الجزر",
-    },
-
-    shortDescription: {
-      en: "Fresh premium carrots.",
-      ar: "جزر طازج عالي الجودة.",
-    },
-
-    description: {
-      en: "Fresh carrots carefully selected for fresh markets, food processing, and export.",
-      ar: "جزر طازج مختار بعناية للأسواق الطازجة والتصنيع الغذائي والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • Netherlands",
-      ar: "مصر • هولندا",
-    },
-
-    packaging: {
-      en: "10 KG Bags",
-      ar: "أجولة 10 كجم",
-    },
-
-    productType: {
-      en: "Vegetables",
-      ar: "خضروات",
-    },
-
-    category: {
-      en: "Root Vegetables",
-      ar: "خضروات جذرية",
-    },
-
-    image: "/images/products/vegetables/carrots/cover.jpg",
-
-    gallery: [
-      "/images/products/vegetables/carrots/1.jpg",
-      "/images/products/vegetables/carrots/2.jpg",
-      "/images/products/vegetables/carrots/3.jpg",
-    ],
-  },
-
-  {
-    id: 25,
-    slug: "cucumbers",
-
-    name: {
-      en: "Cucumbers",
-      ar: "الخيار",
-    },
-
-    shortDescription: {
-      en: "Fresh premium cucumbers.",
-      ar: "خيار طازج عالي الجودة.",
-    },
-
-    description: {
-      en: "Fresh cucumbers suitable for retail markets, food service, wholesale distribution, and export.",
-      ar: "خيار طازج مناسب للأسواق والتوزيع بالجملة وخدمات الأغذية والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • Turkey • Spain",
-      ar: "مصر • تركيا • إسبانيا",
-    },
-
-    packaging: {
-      en: "5 KG • 10 KG Cartons",
-      ar: "كرتونة 5 • 10 كجم",
-    },
-
-    productType: {
-      en: "Vegetables",
-      ar: "خضروات",
-    },
-
-    category: {
-      en: "Fresh Vegetables",
-      ar: "خضروات طازجة",
-    },
-
-    image: "/images/products/vegetables/cucumbers/cover.jpg",
-
-    gallery: [
-      "/images/products/vegetables/cucumbers/1.jpg",
-      "/images/products/vegetables/cucumbers/2.jpg",
-      "/images/products/vegetables/cucumbers/3.jpg",
-    ],
-  },
-
-  {
-    id: 26,
-    slug: "bell-peppers",
-
-    name: {
-      en: "Bell Peppers",
-      ar: "الفلفل الحلو",
-    },
-
-    shortDescription: {
-      en: "Fresh colorful bell peppers.",
-      ar: "فلفل حلو طازج بألوان متنوعة.",
-    },
-
-    description: {
-      en: "Fresh premium bell peppers suitable for supermarkets, food service, processing, and export.",
-      ar: "فلفل حلو طازج عالي الجودة مناسب للسوبر ماركت وخدمات الأغذية والتصنيع والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • Spain • Turkey",
-      ar: "مصر • إسبانيا • تركيا",
-    },
-
-    packaging: {
-      en: "5 KG Cartons",
-      ar: "كرتونة 5 كجم",
-    },
-
-    productType: {
-      en: "Vegetables",
-      ar: "خضروات",
-    },
-
-    category: {
-      en: "Fresh Vegetables",
-      ar: "خضروات طازجة",
-    },
-
-    image: "/images/products/vegetables/bell-peppers/cover.jpg",
-
-    gallery: [
-      "/images/products/vegetables/bell-peppers/1.jpg",
-      "/images/products/vegetables/bell-peppers/2.jpg",
-      "/images/products/vegetables/bell-peppers/3.jpg",
-    ],
-  },
-
-  {
-    id: 27,
-    slug: "eggplant",
-
-    name: {
-      en: "Eggplant",
-      ar: "الباذنجان",
-    },
-
-    shortDescription: {
-      en: "Fresh premium eggplant.",
-      ar: "باذنجان طازج عالي الجودة.",
-    },
-
-    description: {
-      en: "Fresh eggplant suitable for fresh markets, food service, processing, and international export.",
-      ar: "باذنجان طازج مناسب للأسواق وخدمات الأغذية والتصنيع والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • Turkey • Spain",
-      ar: "مصر • تركيا • إسبانيا",
-    },
-
-    packaging: {
-      en: "5 KG • 10 KG Cartons",
-      ar: "كرتونة 5 • 10 كجم",
-    },
-
-    productType: {
-      en: "Vegetables",
-      ar: "خضروات",
-    },
-
-    category: {
-      en: "Fresh Vegetables",
-      ar: "خضروات طازجة",
-    },
-
-    image: "/images/products/vegetables/eggplant/cover.jpg",
-
-    gallery: [
-      "/images/products/vegetables/eggplant/1.jpg",
-      "/images/products/vegetables/eggplant/2.jpg",
-      "/images/products/vegetables/eggplant/3.jpg",
-    ],
-  },
-
-  {
-    id: 28,
-    slug: "green-beans",
-
-    name: {
-      en: "Green Beans",
-      ar: "الفاصوليا الخضراء",
-    },
-
-    shortDescription: {
-      en: "Fresh premium green beans.",
-      ar: "فاصوليا خضراء طازجة عالية الجودة.",
-    },
-
-    description: {
-      en: "Fresh green beans carefully selected for fresh markets, food service, processing, and export.",
-      ar: "فاصوليا خضراء طازجة مختارة بعناية للأسواق وخدمات الأغذية والتصنيع والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • Morocco • Kenya",
-      ar: "مصر • المغرب • كينيا",
-    },
-
-    packaging: {
-      en: "5 KG Cartons",
-      ar: "كرتونة 5 كجم",
-    },
-
-    productType: {
-      en: "Vegetables",
-      ar: "خضروات",
-    },
-
-    category: {
-      en: "Fresh Vegetables",
-      ar: "خضروات طازجة",
-    },
-
-    image: "/images/products/vegetables/green-beans/cover.jpg",
-
-    gallery: [
-      "/images/products/vegetables/green-beans/1.jpg",
-      "/images/products/vegetables/green-beans/2.jpg",
-      "/images/products/vegetables/green-beans/3.jpg",
-    ],
-  },
-
-  {
-    id: 29,
-    slug: "sweet-potatoes",
-
-    name: {
-      en: "Sweet Potatoes",
-      ar: "البطاطا الحلوة",
-    },
-
-    shortDescription: {
-      en: "Premium fresh sweet potatoes.",
-      ar: "بطاطا حلوة طازجة عالية الجودة.",
-    },
-
-    description: {
-      en: "Premium sweet potatoes suitable for fresh markets, food processing, wholesale distribution, and export.",
-      ar: "بطاطا حلوة عالية الجودة مناسبة للأسواق الطازجة والتصنيع الغذائي والتوزيع والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • United States",
-      ar: "مصر • الولايات المتحدة",
-    },
-
-    packaging: {
-      en: "10 KG • 20 KG Bags",
-      ar: "أجولة 10 • 20 كجم",
-    },
-
-    productType: {
-      en: "Vegetables",
-      ar: "خضروات",
-    },
-
-    category: {
-      en: "Root Vegetables",
-      ar: "خضروات جذرية",
-    },
-
-    image: "/images/products/vegetables/sweet-potatoes/cover.jpg",
-
-    gallery: [
-      "/images/products/vegetables/sweet-potatoes/1.jpg",
-      "/images/products/vegetables/sweet-potatoes/2.jpg",
-      "/images/products/vegetables/sweet-potatoes/3.jpg",
-    ],
-  },
+  
+  
 
   // =========================================================
   // 🍎 FRUITS
   // =========================================================
 
   {
-    id: 30,
+    id: 22,
     slug: "oranges",
 
     name: {
@@ -1353,7 +1110,7 @@ export const products: Product[] = [
   },
 
   {
-    id: 31,
+    id: 23,
     slug: "mandarins",
 
     name: {
@@ -1391,7 +1148,7 @@ export const products: Product[] = [
       ar: "حمضيات",
     },
 
-    image: "/images/products/fruits/mandarins/cover.jpg",
+    image: "/images/products/fruits/mandarins/cover.png",
 
     gallery: [
       "/images/products/fruits/mandarins/1.jpg",
@@ -1401,7 +1158,7 @@ export const products: Product[] = [
   },
 
   {
-    id: 32,
+    id: 24,
     slug: "lemons",
 
     name: {
@@ -1449,7 +1206,7 @@ export const products: Product[] = [
   },
 
   {
-    id: 33,
+    id: 25,
     slug: "grapes",
 
     name: {
@@ -1487,7 +1244,7 @@ export const products: Product[] = [
       ar: "فواكه مائدة",
     },
 
-    image: "/images/products/fruits/grapes/cover.jpg",
+    image: "/images/products/fruits/grapes/cover.png",
 
     gallery: [
       "/images/products/fruits/grapes/1.jpg",
@@ -1497,7 +1254,7 @@ export const products: Product[] = [
   },
 
   {
-    id: 34,
+    id: 26,
     slug: "strawberries",
 
     name: {
@@ -1545,7 +1302,7 @@ export const products: Product[] = [
   },
 
   {
-    id: 35,
+    id: 27,
     slug: "mangoes",
 
     name: {
@@ -1593,7 +1350,7 @@ export const products: Product[] = [
   },
 
   {
-    id: 36,
+    id: 28,
     slug: "pomegranates",
 
     name: {
@@ -1640,56 +1397,9 @@ export const products: Product[] = [
     ],
   },
 
+  
   {
-    id: 37,
-    slug: "apples",
-
-    name: {
-      en: "Apples",
-      ar: "التفاح",
-    },
-
-    shortDescription: {
-      en: "Premium fresh apples.",
-      ar: "تفاح طازج عالي الجودة.",
-    },
-
-    description: {
-      en: "Fresh premium apples suitable for retail markets, wholesale distribution, and international trade.",
-      ar: "تفاح طازج عالي الجودة مناسب للأسواق والتوزيع بالجملة والتجارة الدولية.",
-    },
-
-    origin: {
-      en: "Italy • Poland • South Africa",
-      ar: "إيطاليا • بولندا • جنوب أفريقيا",
-    },
-
-    packaging: {
-      en: "10 KG • 18 KG Cartons",
-      ar: "كرتونة 10 • 18 كجم",
-    },
-
-    productType: {
-      en: "Fruits",
-      ar: "فواكه",
-    },
-
-    category: {
-      en: "Pome Fruits",
-      ar: "فواكه بذرية",
-    },
-
-    image: "/images/products/fruits/apples/cover.jpg",
-
-    gallery: [
-      "/images/products/fruits/apples/1.jpg",
-      "/images/products/fruits/apples/2.jpg",
-      "/images/products/fruits/apples/3.jpg",
-    ],
-  },
-
-  {
-    id: 38,
+    id: 29,
     slug: "pears",
 
     name: {
@@ -1737,7 +1447,7 @@ export const products: Product[] = [
   },
 
   {
-    id: 39,
+    id: 30,
     slug: "watermelon",
 
     name: {
@@ -1785,7 +1495,7 @@ export const products: Product[] = [
   },
 
   {
-    id: 40,
+    id: 31,
     slug: "dates",
 
     name: {
@@ -1833,52 +1543,484 @@ export const products: Product[] = [
   },
 
   {
-    id: 41,
-    slug: "guava",
+  id: 32,
+  slug: "peaches",
 
-    name: {
-      en: "Guava",
-      ar: "الجوافة",
-    },
-
-    shortDescription: {
-      en: "Fresh premium guava.",
-      ar: "جوافة طازجة عالية الجودة.",
-    },
-
-    description: {
-      en: "Fresh guava suitable for fresh markets, juice production, food processing, and export.",
-      ar: "جوافة طازجة مناسبة للأسواق وإنتاج العصائر والتصنيع والتصدير.",
-    },
-
-    origin: {
-      en: "Egypt • India • Brazil",
-      ar: "مصر • الهند • البرازيل",
-    },
-
-    packaging: {
-      en: "5 KG • 10 KG Cartons",
-      ar: "كرتونة 5 • 10 كجم",
-    },
-
-    productType: {
-      en: "Fruits",
-      ar: "فواكه",
-    },
-
-    category: {
-      en: "Tropical Fruits",
-      ar: "فواكه استوائية",
-    },
-
-    image: "/images/products/fruits/guava/cover.jpg",
-
-    gallery: [
-      "/images/products/fruits/guava/1.jpg",
-      "/images/products/fruits/guava/2.jpg",
-      "/images/products/fruits/guava/3.jpg",
-    ],
+  name: {
+    en: "Peaches",
+    ar: "الخوخ",
   },
+
+  shortDescription: {
+    en: "Fresh premium peaches.",
+    ar: "خوخ طازج عالي الجودة.",
+  },
+
+  description: {
+    en: "Fresh premium peaches selected for fresh fruit markets, retail distribution, food processing, and international export.",
+    ar: "خوخ طازج عالي الجودة مختار للأسواق الطازجة والتوزيع والتصنيع الغذائي والتصدير الدولي.",
+  },
+
+  origin: {
+    en: "Egypt • Spain • Italy",
+    ar: "مصر • إسبانيا • إيطاليا",
+  },
+
+  packaging: {
+    en: "5 KG • 10 KG Cartons",
+    ar: "كرتونة 5 • 10 كجم",
+  },
+
+  productType: {
+    en: "Fruits",
+    ar: "فواكه",
+  },
+
+  category: {
+    en: "Stone Fruits",
+    ar: "فواكه حجرية",
+  },
+
+  image: "/images/products/fruits/peaches/cover.jpg",
+
+  gallery: [
+    "/images/products/fruits/peaches/1.jpg",
+    "/images/products/fruits/peaches/2.jpg",
+    "/images/products/fruits/peaches/3.jpg",
+  ],
+},
+
+{
+  id: 33,
+  slug: "sweet-potatoes",
+
+  name: {
+    en: "Sweet Potatoes",
+    ar: "البطاطا الحلوة",
+  },
+
+  shortDescription: {
+    en: "Fresh premium sweet potatoes.",
+    ar: "بطاطا حلوة طازجة عالية الجودة.",
+  },
+
+  description: {
+    en: "Premium sweet potatoes selected for fresh markets, food processing, retail distribution, and international export.",
+    ar: "بطاطا حلوة عالية الجودة مختارة للأسواق الطازجة والتصنيع الغذائي والتوزيع والتصدير الدولي.",
+  },
+
+  origin: {
+    en: "Egypt • Spain • USA",
+    ar: "مصر • إسبانيا • الولايات المتحدة",
+  },
+
+  packaging: {
+    en: "6 KG • 10 KG Cartons",
+    ar: "كرتونة 6 • 10 كجم",
+  },
+
+  productType: {
+    en: "Fruits",
+    ar: "فواكه",
+  },
+
+  category: {
+    en: "Root Vegetables",
+    ar: "خضروات جذرية",
+  },
+
+  image: "/images/products/vegetables/sweet-potatoes/cover.jpg",
+
+  gallery: [
+    "/images/products/vegetables/sweet-potatoes/1.jpg",
+    "/images/products/vegetables/sweet-potatoes/2.jpg",
+    "/images/products/vegetables/sweet-potatoes/3.jpg",
+  ],
+},
+
+{
+  id: 34,
+  slug: "potatoes",
+
+  name: {
+    en: "Potatoes",
+    ar: "البطاطس",
+  },
+
+  shortDescription: {
+    en: "Premium fresh potatoes for international markets.",
+    ar: "بطاطس طازجة عالية الجودة للأسواق العالمية.",
+  },
+
+  description: {
+    en: "Premium fresh potatoes carefully selected for retail markets, food processing, food service, and international export.",
+    ar: "بطاطس طازجة عالية الجودة يتم اختيارها بعناية لأسواق التجزئة والتصنيع الغذائي وخدمات الأغذية والتصدير الدولي.",
+  },
+
+  origin: {
+    en: "Egypt • Netherlands • France",
+    ar: "مصر • هولندا • فرنسا",
+  },
+
+  packaging: {
+    en: "10 KG • 25 KG Bags",
+    ar: "أجولة 10 • 25 كجم",
+  },
+
+  productType: {
+    en: "Fruits",
+    ar: "فواكه",
+  },
+
+  category: {
+    en: "Root Vegetables",
+    ar: "خضروات جذرية",
+  },
+
+  image: "/images/products/vegetables/potatoes/cover.jpg",
+
+  gallery: [
+    "/images/products/vegetables/potatoes/1.jpg",
+    "/images/products/vegetables/potatoes/2.jpg",
+    "/images/products/vegetables/potatoes/3.jpg",
+  ],
+},
+
+{
+  id: 35,
+  slug: "colored-peppers",
+
+  name: {
+    en: "Colored Peppers",
+    ar: "الفلفل الألوان",
+  },
+
+  shortDescription: {
+    en: "Fresh premium colored bell peppers.",
+    ar: "فلفل ألوان طازج عالي الجودة.",
+  },
+
+  description: {
+    en: "Premium fresh colored bell peppers selected for food service, retail markets, processing, and international export.",
+    ar: "فلفل ألوان طازج عالي الجودة مختار لخدمات الأغذية والأسواق والتصنيع والتصدير الدولي.",
+  },
+
+  origin: {
+    en: "Egypt • Spain • Morocco",
+    ar: "مصر • إسبانيا • المغرب",
+  },
+
+  packaging: {
+    en: "5 KG • 10 KG Cartons",
+    ar: "كرتونة 5 • 10 كجم",
+  },
+
+ productType: {
+    en: "Fruits",
+    ar: "فواكه",
+  },
+
+  category: {
+    en: "Fresh Vegetables",
+    ar: "خضروات طازجة",
+  },
+
+  image: "/images/products/vegetables/colored-peppers/cover.jpg",
+
+  gallery: [
+    "/images/products/vegetables/colored-peppers/1.jpg",
+    "/images/products/vegetables/colored-peppers/2.jpg",
+    "/images/products/vegetables/colored-peppers/3.jpg",
+  ],
+},
+
+{
+  id: 36,
+  slug: "onions",
+
+  name: {
+    en: "Onions",
+    ar: "البصل",
+  },
+
+  shortDescription: {
+    en: "Premium fresh onions for food and export markets.",
+    ar: "بصل طازج عالي الجودة للأسواق الغذائية والتصدير.",
+  },
+
+  description: {
+    en: "Premium fresh onions selected for retail markets, food processing, food service, and international export.",
+    ar: "بصل طازج عالي الجودة مختار لأسواق التجزئة والتصنيع الغذائي وخدمات الأغذية والتصدير الدولي.",
+  },
+
+  origin: {
+    en: "Egypt • Netherlands • India",
+    ar: "مصر • هولندا • الهند",
+  },
+
+  packaging: {
+    en: "10 KG • 25 KG Bags",
+    ar: "أجولة 10 • 25 كجم",
+  },
+
+   productType: {
+    en: "Fruits",
+    ar: "فواكه",
+  },
+
+  category: {
+    en: "Bulb Vegetables",
+    ar: "خضروات بصيلية",
+  },
+
+  image: "/images/products/vegetables/onions/cover.png",
+
+  gallery: [
+    "/images/products/vegetables/onions/1.jpg",
+    "/images/products/vegetables/onions/2.jpg",
+    "/images/products/vegetables/onions/3.jpg",
+  ],
+},
+
+{
+  id: 37,
+  slug: "cappucci",
+
+  name: {
+    en: "Cappucci",
+    ar: "كابوتشي",
+  },
+
+  shortDescription: {
+    en: "Fresh premium Cappucci vegetables.",
+    ar: "كابوتشي طازج عالي الجودة.",
+  },
+
+  description: {
+    en: "Fresh premium Cappucci selected for retail markets, food service, processing, and international export.",
+    ar: "كابوتشي طازج عالي الجودة مختار للأسواق وخدمات الأغذية والتصنيع والتصدير الدولي.",
+  },
+
+  origin: {
+    en: "Egypt • Italy • Spain",
+    ar: "مصر • إيطاليا • إسبانيا",
+  },
+
+  packaging: {
+    en: "5 KG • 10 KG Cartons",
+    ar: "كرتونة 5 • 10 كجم",
+  },
+
+   productType: {
+    en: "Fruits",
+    ar: "فواكه",
+  },
+
+  category: {
+    en: "Fresh Vegetables",
+    ar: "خضروات طازجة",
+  },
+
+  image: "/images/products/vegetables/cappucci/cover.jpg",
+
+  gallery: [
+    "/images/products/vegetables/cappucci/1.jpg",
+    "/images/products/vegetables/cappucci/2.jpg",
+    "/images/products/vegetables/cappucci/3.jpg",
+  ],
+},
+
+{
+  id: 38,
+  slug: "spring-onions",
+
+  name: {
+    en: "Spring Onions",
+    ar: "البصل الأخضر",
+  },
+
+  shortDescription: {
+    en: "Fresh premium spring onions.",
+    ar: "بصل أخضر طازج عالي الجودة.",
+  },
+
+  description: {
+    en: "Fresh spring onions carefully selected for retail markets, food service, fresh consumption, and export.",
+    ar: "بصل أخضر طازج يتم اختياره بعناية لأسواق التجزئة وخدمات الأغذية والاستهلاك الطازج والتصدير.",
+  },
+
+  origin: {
+    en: "Egypt • Spain • Netherlands",
+    ar: "مصر • إسبانيا • هولندا",
+  },
+
+  packaging: {
+    en: "5 KG • 10 KG Cartons",
+    ar: "كرتونة 5 • 10 كجم",
+  },
+
+ productType: {
+    en: "Fruits",
+    ar: "فواكه",
+  },
+
+  category: {
+    en: "Leafy Vegetables",
+    ar: "خضروات ورقية",
+  },
+
+  image: "/images/products/vegetables/spring-onions/cover.jpg",
+
+  gallery: [
+    "/images/products/vegetables/spring-onions/1.jpg",
+    "/images/products/vegetables/spring-onions/2.jpg",
+    "/images/products/vegetables/spring-onions/3.jpg",
+  ],
+},
+
+{
+  id: 39,
+  slug: "cucumbers",
+
+  name: {
+    en: "Cucumbers",
+    ar: "الخيار",
+  },
+
+  shortDescription: {
+    en: "Fresh premium cucumbers.",
+    ar: "خيار طازج عالي الجودة.",
+  },
+
+  description: {
+    en: "Fresh premium cucumbers selected for retail markets, food service, processing, and international export.",
+    ar: "خيار طازج عالي الجودة مختار للأسواق وخدمات الأغذية والتصنيع والتصدير الدولي.",
+  },
+
+  origin: {
+    en: "Egypt • Spain • Turkey",
+    ar: "مصر • إسبانيا • تركيا",
+  },
+
+  packaging: {
+    en: "5 KG • 10 KG Cartons",
+    ar: "كرتونة 5 • 10 كجم",
+  },
+
+   productType: {
+    en: "Fruits",
+    ar: "فواكه",
+  },
+
+  category: {
+    en: "Fresh Vegetables",
+    ar: "خضروات طازجة",
+  },
+
+  image: "/images/products/vegetables/cucumbers/cover.png",
+
+  gallery: [
+    "/images/products/vegetables/cucumbers/1.jpg",
+    "/images/products/vegetables/cucumbers/2.jpg",
+    "/images/products/vegetables/cucumbers/3.jpg",
+  ],
+},
+
+{
+  id: 40,
+  slug: "broccoli",
+
+  name: {
+    en: "Broccoli",
+    ar: "البروكلي",
+  },
+
+  shortDescription: {
+    en: "Fresh premium broccoli.",
+    ar: "بروكلي طازج عالي الجودة.",
+  },
+
+  description: {
+    en: "Premium fresh broccoli selected for retail markets, food service, processing, freezing, and international export.",
+    ar: "بروكلي طازج عالي الجودة مختار لأسواق التجزئة وخدمات الأغذية والتصنيع والتجميد والتصدير الدولي.",
+  },
+
+  origin: {
+    en: "Egypt • Spain • Italy",
+    ar: "مصر • إسبانيا • إيطاليا",
+  },
+
+  packaging: {
+    en: "5 KG • 10 KG Cartons",
+    ar: "كرتونة 5 • 10 كجم",
+  },
+
+  productType: {
+    en: "Fruits",
+    ar: "فواكه",
+  },
+
+  category: {
+    en: "Cruciferous Vegetables",
+    ar: "خضروات صليبية",
+  },
+
+  image: "/images/products/vegetables/broccoli/cover.jpg",
+
+  gallery: [
+    "/images/products/vegetables/broccoli/1.jpg",
+    "/images/products/vegetables/broccoli/2.jpg",
+    "/images/products/vegetables/broccoli/3.jpg",
+  ],
+},
+
+{
+  id: 41,
+  slug: "garlic",
+
+  name: {
+    en: "Garlic",
+    ar: "الثوم",
+  },
+
+  shortDescription: {
+    en: "Premium fresh garlic for food and export markets.",
+    ar: "ثوم طازج عالي الجودة للأسواق الغذائية والتصدير.",
+  },
+
+  description: {
+    en: "Premium fresh garlic carefully selected for food processing, retail markets, food service, and international export.",
+    ar: "ثوم طازج عالي الجودة يتم اختياره بعناية للتصنيع الغذائي وأسواق التجزئة وخدمات الأغذية والتصدير الدولي.",
+  },
+
+  origin: {
+    en: "Egypt • China • Spain",
+    ar: "مصر • الصين • إسبانيا",
+  },
+
+  packaging: {
+    en: "5 KG • 10 KG Cartons",
+    ar: "كرتونة 5 • 10 كجم",
+  },
+
+  productType: {
+    en: "Fruits",
+    ar: "فواكه",
+  },
+
+  category: {
+    en: "Bulb Vegetables",
+    ar: "خضروات بصيلية",
+  },
+
+  image: "/images/products/vegetables/garlic/cover.png",
+
+  gallery: [
+    "/images/products/vegetables/garlic/1.jpg",
+    "/images/products/vegetables/garlic/2.jpg",
+    "/images/products/vegetables/garlic/3.jpg",
+  ],
+},
 
   // =========================================================
   // 🌱 SEEDS & SEEDLINGS
