@@ -1042,7 +1042,7 @@ export const products: Product[] = [
     ar: "محاصيل زيتية",
   },
 
-  image: "/images/products/Agricultural-Commodities/sesame/cover.jpg",
+  image: "/images/products/Agricultural-Commodities/Sesame/cover.jpg",
 
   gallery: [
     "/images/products/sesame/1.jpg",
