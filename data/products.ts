@@ -1287,7 +1287,7 @@ export const products: Product[] = [
       ar: "توتيات",
     },
 
-    image: "/images/products/fruits/strawberries/cover.jpg",
+    image: "/images/products/fruits/strawberries/cover.png",
 
     gallery: [
       "/images/products/fruits/strawberries/1.jpg",
@@ -1335,7 +1335,7 @@ export const products: Product[] = [
       ar: "فواكه استوائية",
     },
 
-    image: "/images/products/fruits/mangoes/cover.jpg",
+    image: "/images/products/fruits/mangoes/cover.png",
 
     gallery: [
       "/images/products/fruits/mangoes/1.jpg",
