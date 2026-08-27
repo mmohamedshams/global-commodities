@@ -1050,7 +1050,54 @@ export const products: Product[] = [
     "/images/products/sesame/3.jpg",
   ],
 },
-  
+  {
+  id: 21,
+   slug: "white-kidney-bean",
+
+  name: {
+    en: "White Kidney Bean",
+    ar: "الفاصوليا البيضاء",
+  },
+
+
+  shortDescription: {
+    en: "Premium quality white kidney beans.",
+    ar: "فاصوليا بيضاء عالية الجودة.",
+  },
+
+  description: {
+    en: "Premium quality white kidney beans carefully selected for food processing, retail markets, wholesale distribution, and international export.",
+    ar: "فاصوليا بيضاء عالية الجودة يتم اختيارها بعناية للصناعات الغذائية وأسواق التجزئة والتوزيع بالجملة والتصدير الدولي.",
+  },
+
+  origin: {
+    en: "Egypt • Canada • USA",
+    ar: "مصر • كندا • الولايات المتحدة",
+  },
+
+  packaging: {
+    en: "25 KG • 50 KG Bags",
+    ar: "أجولة 25 • 50 كجم",
+  },
+
+  productType: {
+    en: "Agricultural Commodities",
+    ar: "حاصلات زراعية",
+  },
+
+   category: {
+    en: "Pulses",
+    ar: "بقوليات",
+  },
+
+  image: "/images/products/Agricultural-Commodities/white-kidney-bean/cover.jpg",
+
+  gallery: [
+    "/images/products/sesame/1.jpg",
+    "/images/products/sesame/2.jpg",
+    "/images/products/sesame/3.jpg",
+  ],
+},
 
   // =========================================================
   // 🍎 FRUITS
