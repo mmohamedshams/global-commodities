@@ -1048,7 +1048,7 @@ export const products: Product[] = [
     ar: "خضروات جذرية",
   },
 
-  image: "/images/products/vegetables/sweet-potatoes/cover.jpg",
+  image: "/images/products/vegetables/sweet-potatoes/cover1.jpg",
 },
 
 {
