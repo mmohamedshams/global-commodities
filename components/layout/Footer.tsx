@@ -109,11 +109,11 @@ export default function Footer() {
 
             <div className="space-y-3 text-gray-400">
 
-              <p>Potato Seeds</p>
-              <p>Sesame Seeds</p>
-              <p>Popcorn</p>
-              <p>Cowpeas</p>
-              <p>Canadian Beans</p>
+              <p>Agricultural Commodities</p>
+              <p>Vegetables and Fruits</p>
+              <p>Seeds</p>
+              <p>Feed & By-Products</p>
+              
 
             </div>
 
@@ -142,6 +142,9 @@ export default function Footer() {
         </p>
         <p className="font-medium text-white">
           ,Cairo
+        </p>
+        <p className="font-medium text-white">
+          ,Giza
         </p>
         <p className="text-sm text-gray-400">
           Egypt
@@ -189,7 +192,23 @@ export default function Footer() {
       />
 
       <span>
-        +20 106 943 3125
+        +233884971
+      </span>
+      <span>
+        +2862340770
+      </span>
+    </div>
+    <div className="flex items-center gap-3">
+      <Phone
+        size={18}
+        className="shrink-0 text-orange-500"
+      />
+
+      <span>
+        0862341306
+      </span>
+      <span>
+        0862373323
       </span>
     </div>
 

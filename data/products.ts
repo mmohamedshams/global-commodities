@@ -1659,86 +1659,6 @@ export const products: Product[] = [
   image: "/images/products/feed-by-products/full-fat-soy/cover.jpg",
 },
 
-{
-  id: 58,
-  slug: "soybean-oil",
-
-  name: {
-    en: "Soybean Oil",
-    ar: "زيت فول الصويا",
-  },
-
-  shortDescription: {
-    en: "Premium soybean oil for food and feed applications.",
-    ar: "زيت فول صويا عالي الجودة للاستخدامات الغذائية والأعلاف.",
-  },
-
-  productType: {
-    en: "Feed & By-Products",
-    ar: "الأعلاف والمنتجات الثانوية",
-  },
-
-  category: {
-    en: "Vegetable Oils",
-    ar: "زيوت نباتية",
-  },
-
-  image: "/images/products/feed-by-products/soybean-oil/cover.jpg",
-},
-
-{
-  id: 59,
-  slug: "cottonseed-meal",
-
-  name: {
-    en: "Cottonseed Meal",
-    ar: "كسب بذور القطن",
-  },
-
-  shortDescription: {
-    en: "Protein-rich cottonseed meal for animal feed.",
-    ar: "كسب بذور القطن الغني بالبروتين للأعلاف الحيوانية.",
-  },
-
-  productType: {
-    en: "Feed & By-Products",
-    ar: "الأعلاف والمنتجات الثانوية",
-  },
-
-  category: {
-    en: "Oilseed Meals",
-    ar: "أكساب البذور الزيتية",
-  },
-
-  image: "/images/products/feed-by-products/cottonseed-meal/cover.jpg",
-},
-
-{
-  id: 60,
-  slug: "cottonseed-oil",
-
-  name: {
-    en: "Cottonseed Oil",
-    ar: "زيت بذور القطن",
-  },
-
-  shortDescription: {
-    en: "Premium cottonseed oil for food and industrial applications.",
-    ar: "زيت بذور القطن عالي الجودة للاستخدامات الغذائية والصناعية.",
-  },
-
-  productType: {
-    en: "Feed & By-Products",
-    ar: "الأعلاف والمنتجات الثانوية",
-  },
-
-  category: {
-    en: "Vegetable Oils",
-    ar: "زيوت نباتية",
-  },
-
-  image: "/images/products/feed-by-products/cottonseed-oil/cover.jpg",
-},
 
 {
   id: 61,
@@ -1766,5 +1686,85 @@ export const products: Product[] = [
 
   image: "/images/products/feed-by-products/wheat-bran/cover.jpg",
 },
+{
+  id: 59,
+  slug: "cottonseed-meal",
+
+  name: {
+    en: "Cottonseed Meal",
+    ar: "كسب بذور القطن",
+  },
+
+  shortDescription: {
+    en: "Protein-rich cottonseed meal for animal feed.",
+    ar: "كسب بذور القطن الغني بالبروتين للأعلاف الحيوانية.",
+  },
+
+  productType: {
+    en: "Feed & By-Products",
+    ar: "الأعلاف والمنتجات الثانوية",
+  },
+
+  category: {
+    en: "Oilseed Meals",
+    ar: "أكساب البذور الزيتية",
+  },
+
+  image: "/images/products/feed-by-products/cottonseed-meal/cover.jpg",
+},
+{
+  id: 58,
+  slug: "soybean-oil",
+
+  name: {
+    en: "Soybean Oil",
+    ar: "زيت فول الصويا",
+  },
+
+  shortDescription: {
+    en: "Premium soybean oil for food and feed applications.",
+    ar: "زيت فول صويا عالي الجودة للاستخدامات الغذائية والأعلاف.",
+  },
+
+  productType: {
+    en: "Feed & By-Products",
+    ar: "الأعلاف والمنتجات الثانوية",
+  },
+
+  category: {
+    en: "Vegetable Oils",
+    ar: "زيوت نباتية",
+  },
+
+  image: "/images/products/feed-by-products/soybean-oil/cover.jpg",
+},
+{
+  id: 60,
+  slug: "cottonseed-oil",
+
+  name: {
+    en: "Cottonseed Oil",
+    ar: "زيت بذور القطن",
+  },
+
+  shortDescription: {
+    en: "Premium cottonseed oil for food and industrial applications.",
+    ar: "زيت بذور القطن عالي الجودة للاستخدامات الغذائية والصناعية.",
+  },
+
+  productType: {
+    en: "Feed & By-Products",
+    ar: "الأعلاف والمنتجات الثانوية",
+  },
+
+  category: {
+    en: "Vegetable Oils",
+    ar: "زيوت نباتية",
+  },
+
+  image: "/images/products/feed-by-products/cottonseed-oil/cover.jpg",
+},
+
+
 
 ];

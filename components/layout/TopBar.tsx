@@ -3,6 +3,7 @@ import {
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
+  FaWhatsapp,
 } from "react-icons/fa6";
 
 export default function TopBar() {
@@ -14,13 +15,15 @@ export default function TopBar() {
         <div className="flex items-center gap-5">
 
           {/* Phone */}
-          <a
-            href="tel:+201069433125"
-            className="flex items-center gap-1.5 text-gray-500 transition-colors hover:text-[#F97316] dark:text-gray-400"
-          >
-            <Phone size={13} strokeWidth={2} />
-            <span>+20 106 943 3125</span>
-          </a>
+       <a
+  href="https://wa.me/201069433125"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center gap-1.5 text-gray-500 transition-colors hover:text-[#25D366] dark:text-gray-400"
+>
+  <FaWhatsapp size={15} />
+  <span>+20 106 943 3125</span>
+</a>
 
           {/* Email */}
           <a
