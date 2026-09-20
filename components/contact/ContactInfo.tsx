@@ -9,12 +9,20 @@ export default function ContactInfo() {
   const t = useTranslations("contact.info");
 
   const items = [
+      {
+      id: "Giza",
+      icon: MapPin,
+      title: t("address"),
+      value: "Giza , Egypt",
+    },
     {
       id: "minya",
       icon: MapPin,
       title: t("address"),
-      value: "El Minya ,Cairo, Egypt",
+      value: "El Minya , Egypt",
     },
+    
+  
     {
       id: "abu-dhabi",
       icon: MapPin,
@@ -25,7 +33,7 @@ export default function ContactInfo() {
       id: "phone",
       icon: Phone,
       title: t("phone"),
-      value: "+20 106 943 3125",
+      value: "+20862340770",
     },
     {
       id: "email",

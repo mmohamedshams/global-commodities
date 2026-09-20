@@ -128,7 +128,22 @@ export default function Footer() {
   </h3>
 
   <div className="space-y-5 text-gray-400">
+<div className="flex items-start gap-3">
+      <MapPin
+        size={18}
+        className="mt-1 shrink-0 text-orange-500"
+/>
 
+      <div>
+        <p className="font-medium text-white">
+          Giza
+        </p>
+        <p className="text-sm text-gray-400">
+          Egypt
+        </p>
+      </div>
+    </div>
+   
     {/* Minya */}
     <div className="flex items-start gap-3">
       <MapPin
@@ -139,12 +154,6 @@ export default function Footer() {
       <div>
         <p className="font-medium text-white">
           Minya
-        </p>
-        <p className="font-medium text-white">
-          ,Cairo
-        </p>
-        <p className="font-medium text-white">
-          ,Giza
         </p>
         <p className="text-sm text-gray-400">
           Egypt
