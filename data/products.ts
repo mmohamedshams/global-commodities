@@ -1415,7 +1415,7 @@ export const products: Product[] = [
 
     name: {
       en: "Diamant",
-      ar: "الألماس",
+      ar: "ديامانت",
     },
 
     shortDescription: {
